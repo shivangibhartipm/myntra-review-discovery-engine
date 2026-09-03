@@ -1,0 +1,450 @@
+{
+  "relevant": [
+    {
+      "doc_id": "12019cf628ee9c2093894ccc75527504",
+      "source": "play",
+      "observed_at": "2026-05-02T16:32:59",
+      "text": "They promise fake goodwill coupan after cancelling order from their side They are biggest cheaters They tel you in social media that order cancelled due to technical issue and we will issue a goodwill coupan... But later they will call u n say that No we wont give u.. its technical issue earlier.. u wont get anything This is the way to treat insider customer",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "postpone"
+      ]
+    },
+    {
+      "doc_id": "f73d551f9add7e3e4ac9cb5bd10af246",
+      "source": "youtube",
+      "observed_at": "2026-08-06T21:37:42",
+      "text": "How to add products to wishlist for affiliate first time I added next time how to add, and how to sale",
+      "is_relevant": true,
+      "score": 0.86,
+      "reasons": [
+        "wishlist_language"
+      ]
+    },
+    {
+      "doc_id": "20b23db7b27ce862b9a853000d99e8ef",
+      "source": "youtube",
+      "observed_at": "2025-09-28T13:25:50",
+      "text": "Amazon ka link nhi bn rha h bol fhe h ki program join kro usme sirf telegram and whatshapp ka hi option h par mujhe youtube par dalna h?",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "external_validation"
+      ]
+    },
+    {
+      "doc_id": "b5956dcc824e6925c3b28ded9e6101a6",
+      "source": "play",
+      "observed_at": "2026-05-29T17:18:10",
+      "text": "fashion collection \u2013 Good variety of clothing, shoes, watches, beauty products, and accessories from brands like Nike, Puma, and H&M. Frequent discounts & sales \u2013 Events like End of Reason Sale (EORS) are popular for big discounts. Easy-to-use app \u2013 Smooth browsing, size filters, wishlist, and personalized recommendations. Fast delivery in many cities \u2013 Especially for metro and tier-2 cities. Gene",
+      "is_relevant": true,
+      "score": 0.86,
+      "reasons": [
+        "wishlist_language",
+        "price_wait",
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "54aef7413538e888e675e308c97a2572",
+      "source": "youtube",
+      "observed_at": "2026-05-18T04:08:54",
+      "text": "Can I share affiliate link from wishlist collection?",
+      "is_relevant": true,
+      "score": 0.86,
+      "reasons": [
+        "wishlist_language"
+      ]
+    },
+    {
+      "doc_id": "2edafac994c7183dcf712ed8e11b4c13",
+      "source": "play",
+      "observed_at": "2026-05-28T18:28:46",
+      "text": "I wish I had the option to rate zero, unfortunately 1 I have to select, worst app and worst customer service, they verify your number with otp and then only allow you to place order , after order placed they took 8 days to ship and now they say you have placed order with wrong number and can't change mobile number now. \ud83e\udd23\ud83e\udd23 indirectly they just showcasing items that are not available and later take ",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "postpone"
+      ]
+    },
+    {
+      "doc_id": "28d987f84bbe3e04fff2ca247d7a820d",
+      "source": "play",
+      "observed_at": "2026-05-28T14:08:11",
+      "text": "comfortable to wear worth buying",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "f9e71a6745b54c1938388ef9d73540c2",
+      "source": "play",
+      "observed_at": "2026-05-06T17:48:16",
+      "text": "I hate myntra poor service it's totally froud company. thy scamed my 750rs in myntra credit that's I was pursuing for my wishlist buying. without reason myntra ban my account. and mail the customer service many time they are abusing me aslo harrasment. if anyone see my review be honest I told don't hold money in Myntra wallet/ credit. it's totally scam my money 750 my hard working money.",
+      "is_relevant": true,
+      "score": 0.86,
+      "reasons": [
+        "wishlist_language"
+      ]
+    },
+    {
+      "doc_id": "71e1c22f2bd74443fbae6c1f23d6579e",
+      "source": "play",
+      "observed_at": "2026-05-28T00:07:24",
+      "text": "They charge very high platform fees, and the worst part is that the platform fee is not refunded when an order is cancelled. They also charge this fee on every shopping order, which feels too expensive. If someone shops two or three times, they end up paying around 70 rupees just in platform fees. On top of that, the clothes often feel cheap in quality despite being quite expensive.",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "c931129477657c7f831bce328fea0c5c",
+      "source": "play",
+      "observed_at": "2026-05-27T23:53:09",
+      "text": "The servers are so busy that I couldn't even search anything. Every time the screen goes,\"OOPS! SOMETHING WENT WRONG\". Might becoz of the 'End of Reason Sale' Traffic. Haha! \ud83d\ude02 Way more users than the app could handle.",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "price_wait"
+      ]
+    },
+    {
+      "doc_id": "419af3bf33b17aef5940243bc7f31bb3",
+      "source": "play",
+      "observed_at": "2026-05-26T13:09:39",
+      "text": "Very disappointing experience with Myntra. I requested an exchange for a size issue even though the product was unused and in perfect condition, but my request was still rejected after multiple follow-ups. Customer support initially gave hope but later denied the request without a proper resolution. This kind of inconsistency is really frustrating for customers. Expected better service from such a",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "postpone"
+      ]
+    },
+    {
+      "doc_id": "717ca64861a3e6f3605b463f8e72fbd7",
+      "source": "play",
+      "observed_at": "2026-05-21T16:13:37",
+      "text": "Totally worth buying from Myntra",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "3ca5413fa11efc029b56b301270419bb",
+      "source": "play",
+      "observed_at": "2026-05-25T15:54:26",
+      "text": "Myntra is a great fashion shopping app with a huge collection of trendy clothes, footwear, beauty products, and accessories. The app is easy to use, offers frequent discounts, fast delivery, and genuine branded products. Its smooth interface, wishlist feature, and easy return policy make online shopping simple and enjoyable. Perfect for finding stylish outfits at affordable prices",
+      "is_relevant": true,
+      "score": 0.86,
+      "reasons": [
+        "wishlist_language",
+        "returns_trust"
+      ]
+    },
+    {
+      "doc_id": "1ca28b8c98474a3e63869c1d42900507",
+      "source": "play",
+      "observed_at": "2026-05-25T13:38:20",
+      "text": "quality ek number but delivery aachi nahi hai time pe nahi aata hai 2 din 2 din baad me aata hai",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "postpone"
+      ]
+    },
+    {
+      "doc_id": "50c7e26bd6c3745c080445e50dfdea17",
+      "source": "play",
+      "observed_at": "2026-05-06T12:31:33",
+      "text": "Very disappointing experience with Myntra. I ordered a shirt for my friend\u2019s wedding, but the delivery was delayed by more than 2 days and the parcel didn\u2019t arrive on time. There was no proper update from the company, and I had to cancel the order at the last moment. Although the refund was processed, the whole experience was frustrating and unreliable. Not recommended for time-sensitive purchases",
+      "is_relevant": true,
+      "score": 0.79,
+      "reasons": [
+        "occasion",
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "78707aee70fc91d98f92dcec79b14230",
+      "source": "play",
+      "observed_at": "2026-05-24T21:03:42",
+      "text": "ok ok some clothes are very good as well as pricing but some are too expensive also I have bought campus eagle sneakers whtbone colour through campus website because on my tra it was 1499 and in campus website it was 999",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "3fa60860ea45640796c0a6ee9ce48df0",
+      "source": "play",
+      "observed_at": "2026-05-12T16:58:43",
+      "text": "The most significant hurdle in digital retail is the \"Expectation vs. Reality\" gap. Myntra bridges this gap brilliantly. The product photography is incredibly accurate, and the detailed descriptions ensure that there are no surprises when the package arrives. Whether it is the specific vibrant hue of a dress or the intricate detailing on a piece of jewelry, the app ensures that the product deliver",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "compare"
+      ]
+    },
+    {
+      "doc_id": "9d3bba84fd63f4481a430bebb04b8216",
+      "source": "play",
+      "observed_at": "2026-04-27T13:35:41",
+      "text": "That's not fair Myntra. Please don't apply rs 23 Platform fee on every purchase. Atleast in one month, charge only one time . That's too expensive to pay rs 23 for every purchase for those who purchase a number of times in a month. Please do something ethical decision regarding this. I hope Myntra will listen to this issue.",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "save_behavior_theme"
+      ]
+    },
+    {
+      "doc_id": "030daca08f8a7362e9b029914ee0b7ce",
+      "source": "play",
+      "observed_at": "2026-04-29T20:43:34",
+      "text": "style exchange is not working in app. customer care suggest uninstall install clear cache etc. nothing is working. Later you count our return and start charging us money for return. Its Scam . no hassle free return or exchange. exactly opposite",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "postpone"
+      ]
+    },
+    {
+      "doc_id": "58340eb3d7c3a11c8dff86fa7a14c387",
+      "source": "play",
+      "observed_at": "2026-05-21T18:23:52",
+      "text": "Dear, U are absolutely fabulous with your work,I liked it.But I have seen more price for XS sized dress than other size dress.So,I hope you will look into it and then I will be very happy to give you all the 5 stars.",
+      "is_relevant": true,
+      "score": 0.67,
+      "reasons": [
+        "fit_uncertainty"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "doc_id": "27e9218e93927ab26cc376a79fc903fa",
+      "source": "youtube",
+      "observed_at": "2025-12-29T19:57:39",
+      "text": "\u2764",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    },
+    {
+      "doc_id": "8a0fa9d0539173bc33f32d7df000b806",
+      "source": "youtube",
+      "observed_at": "2025-12-02T08:12:41",
+      "text": "Flipkart is better than meesho \u2764",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "1ea0d9102f86d366fe2abf762dd5a05d",
+      "source": "youtube",
+      "observed_at": "2025-12-15T03:01:41",
+      "text": "Where is the link",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "1138f496c48716f794aad8cce0f80f22",
+      "source": "play",
+      "observed_at": "2026-04-27T12:50:43",
+      "text": "good experience ever",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "594c78deb2e2ce830dc09b700aaf4ecb",
+      "source": "youtube",
+      "observed_at": "2025-12-14T04:44:40",
+      "text": "Yr mene ek cheze order ki thi , wo is wale box me teen bari show ho raha ha , jab ki mene ek hi bari ( only 1) me hi order kiya tha , yah kya ha bhai wo ek hi order ha ki sare aye gay \ud83d\ude22",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "e28e0f0975b201be02080a47d68cbd45",
+      "source": "youtube",
+      "observed_at": "2025-10-30T10:21:25",
+      "text": "Tumhari flooring tiles bol rahi hai, lighting effect he in ghaghara color\n\nOtherwise ghaghra and chunni are the same",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "694f2703d36147b7f7e80b850826c3dd",
+      "source": "youtube",
+      "observed_at": "2025-11-18T18:05:29",
+      "text": "Mujhe create ka option hi nhi aa rha hai",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "efe5ba64c01409156eaed080ec69c66c",
+      "source": "youtube",
+      "observed_at": "2025-11-24T08:39:28",
+      "text": "Meesho is best \u2764\ud83d\ude0a\u2764",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "cbc961177057a6ac8062af3ab91c1da2",
+      "source": "play",
+      "observed_at": "2026-04-27T00:15:36",
+      "text": "very nice app for purchase everything cheaper",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "b815eaa458a79247ab180d5d6c8b6741",
+      "source": "youtube",
+      "observed_at": "2025-11-09T10:24:20",
+      "text": "Price ke hisab se hota hai",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "64870cf4d307a830b32616653f7f8371",
+      "source": "youtube",
+      "observed_at": "2025-12-25T03:29:38",
+      "text": "I have received a whatsapp txt that 200 has been credited but I haven't received it though what do I do",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "811797958b3a461f2d30adfd0e399ed4",
+      "source": "youtube",
+      "observed_at": "2025-10-09T13:22:54",
+      "text": "I have deleted my account, but I am unable to create a new one. Could you please advise me on how to create a new account or recover my old account?",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "c4ce32894c4380442dae2a20e9e5e562",
+      "source": "youtube",
+      "observed_at": "2025-09-30T11:42:54",
+      "text": "Link please",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    },
+    {
+      "doc_id": "72443978d23e2bdc04dd9f17228fe807",
+      "source": "youtube",
+      "observed_at": "2025-09-24T17:07:01",
+      "text": "Link please",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    },
+    {
+      "doc_id": "25438b957caf543bccb5cfea400dd8e9",
+      "source": "youtube",
+      "observed_at": "2025-11-16T17:13:53",
+      "text": "Meesho than super \ud83e\ude77",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "e74b1416f6c381ef078679db67295532",
+      "source": "youtube",
+      "observed_at": "2026-03-15T17:19:42",
+      "text": "Eid pe eetne simple kapde kon penta hai..??",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "bbf7e07646b2f5321cbe86619f91e653",
+      "source": "youtube",
+      "observed_at": "2025-10-02T14:45:10",
+      "text": "\u2764\u2764\u2764",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    },
+    {
+      "doc_id": "3fa529454ad0b714b683acf930c654a0",
+      "source": "youtube",
+      "observed_at": "2025-10-11T14:21:04",
+      "text": "Mere glam clan photo per corner per glam clan likha  nahi show hou raha hai",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "no_signal"
+      ]
+    },
+    {
+      "doc_id": "67188096059460f58fe81211b927f493",
+      "source": "youtube",
+      "observed_at": "2025-11-26T13:57:56",
+      "text": "Meesho \u2764\u2764\u2764\u2764",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    },
+    {
+      "doc_id": "4cd7f8d76c9d37176ae8c07bd821b9ad",
+      "source": "youtube",
+      "observed_at": "2025-12-30T05:25:05",
+      "text": "Thanks you",
+      "is_relevant": false,
+      "score": 0.0,
+      "reasons": [
+        "too_short"
+      ]
+    }
+  ]
+}

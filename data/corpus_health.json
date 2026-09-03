@@ -1,0 +1,253 @@
+{
+  "n_unfiltered": 36118,
+  "n_relevant": 264,
+  "yield_by_source": {
+    "app_store": {
+      "unfiltered": 404,
+      "scored": 404,
+      "relevant": 1,
+      "yield": 0.0025
+    },
+    "play": {
+      "unfiltered": 34082,
+      "scored": 34082,
+      "relevant": 204,
+      "yield": 0.006
+    },
+    "youtube": {
+      "unfiltered": 1632,
+      "scored": 1632,
+      "relevant": 59,
+      "yield": 0.0362
+    }
+  },
+  "counts": {
+    "by_source": {
+      "app_store": 404,
+      "play": 34082,
+      "youtube": 1632
+    },
+    "by_layer": {
+      "recency_90d": 26378,
+      "primary_12m": 9743
+    },
+    "by_source_layer": {
+      "app_store": {
+        "recency_90d": 404
+      },
+      "play": {
+        "primary_12m": 8353,
+        "recency_90d": 25729
+      },
+      "youtube": {
+        "primary_12m": 1390,
+        "recency_90d": 242
+      }
+    }
+  },
+  "windows": {
+    "as_of": "2026-09-01T12:10:48",
+    "recency_start": "2026-06-03T12:10:48",
+    "primary_start": "2025-09-01T12:10:48",
+    "trend_start": "2024-09-01T12:10:48",
+    "trend_end": "2025-03-01T12:10:48",
+    "pdp_start": "2025-09-01T12:10:48"
+  },
+  "collected_at": "2026-09-01T12:10:48",
+  "last_run": {
+    "run_id": "bd7982cd-4470-4875-8574-3665c0bd7e78",
+    "phase": "present",
+    "started_at": "2026-09-01T12:10:48",
+    "finished_at": null,
+    "counts_in": 0,
+    "counts_out": 0
+  },
+  "recent_runs": [
+    {
+      "run_id": "bd7982cd-4470-4875-8574-3665c0bd7e78",
+      "phase": "present",
+      "started_at": "2026-09-01T12:10:48",
+      "counts_in": 0,
+      "counts_out": 0,
+      "error_count": 0
+    },
+    {
+      "run_id": "7f0fe06e-bd3d-4e31-b0b5-a43e847dbe4b",
+      "phase": "rank",
+      "started_at": "2026-08-28T10:26:31",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "eefba3c4-9321-404d-b79a-2cceca4f310a",
+      "phase": "present",
+      "started_at": "2026-08-28T10:26:31",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "0bde18f0-1e70-4e3e-8ea2-3baccd196d42",
+      "phase": "cluster",
+      "started_at": "2026-08-28T10:25:45",
+      "counts_in": 267,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "bbd71802-26ac-4d8e-a12c-0bff131916d3",
+      "phase": "extract",
+      "started_at": "2026-08-28T10:25:43",
+      "counts_in": 267,
+      "counts_out": 267,
+      "error_count": 0
+    },
+    {
+      "run_id": "956c0f44-9b9d-4012-bb65-fa6974466a9e",
+      "phase": "filter",
+      "started_at": "2026-08-28T10:25:38",
+      "counts_in": 36121,
+      "counts_out": 267,
+      "error_count": 0
+    },
+    {
+      "run_id": "8cc44230-adbf-4117-9e72-c7b073a8aa1f",
+      "phase": "collect",
+      "started_at": "2026-08-28T09:56:52",
+      "counts_in": 20094,
+      "counts_out": 8921,
+      "error_count": 1
+    },
+    {
+      "run_id": "53337fea-b054-4203-a67b-7d9139fee12e",
+      "phase": "present",
+      "started_at": "2026-08-28T08:56:31",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "d1eb7a31-ab37-411f-8c59-947b80459561",
+      "phase": "present",
+      "started_at": "2026-08-28T08:56:22",
+      "counts_in": 0,
+      "counts_out": 0,
+      "error_count": 1
+    },
+    {
+      "run_id": "d7da3117-1e02-4176-aafe-7b1a76c2b49c",
+      "phase": "present",
+      "started_at": "2026-08-28T08:45:27",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "d57f8723-d82b-4eec-ae0b-38399fb16f9b",
+      "phase": "present",
+      "started_at": "2026-08-28T08:42:57",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    },
+    {
+      "run_id": "623a874d-6fb6-4ae6-bc58-57e9302e6a50",
+      "phase": "present",
+      "started_at": "2026-08-28T08:33:01",
+      "counts_in": 12,
+      "counts_out": 12,
+      "error_count": 0
+    }
+  ],
+  "stuck_reason_catalog": [
+    {
+      "id": "stock_availability",
+      "label": "Stock / availability friction",
+      "category": "blocker",
+      "count": 28,
+      "share": 0.1061,
+      "is_blocker": true
+    },
+    {
+      "id": "price_value_hesitation",
+      "label": "Price / value hesitation",
+      "category": "blocker",
+      "count": 26,
+      "share": 0.0985,
+      "is_blocker": true
+    },
+    {
+      "id": "social_validation_review",
+      "label": "Social validation / review-seeking",
+      "category": "blocker",
+      "count": 8,
+      "share": 0.0303,
+      "is_blocker": true
+    },
+    {
+      "id": "styling_occasion_uncertainty",
+      "label": "Styling / occasion uncertainty",
+      "category": "blocker",
+      "count": 8,
+      "share": 0.0303,
+      "is_blocker": true
+    },
+    {
+      "id": "comparison_shopping",
+      "label": "Comparison shopping",
+      "category": "blocker",
+      "count": 6,
+      "share": 0.0227,
+      "is_blocker": true
+    },
+    {
+      "id": "wishlist_ux_friction",
+      "label": "Wishlist UX / product friction",
+      "category": "ux",
+      "count": 3,
+      "share": 0.0114,
+      "is_blocker": false
+    },
+    {
+      "id": "bookmark_not_buying",
+      "label": "Bookmarking-not-buying behavior",
+      "category": "blocker",
+      "count": 1,
+      "share": 0.0038,
+      "is_blocker": true
+    },
+    {
+      "id": "trust_quality_doubt",
+      "label": "Trust / quality doubt",
+      "category": "blocker",
+      "count": 1,
+      "share": 0.0038,
+      "is_blocker": true
+    },
+    {
+      "id": "trigger_to_purchase",
+      "label": "Trigger-to-purchase moment",
+      "category": "conversion",
+      "count": 1,
+      "share": 0.0038,
+      "is_blocker": false
+    },
+    {
+      "id": "fit_size_uncertainty",
+      "label": "Fit & size uncertainty",
+      "category": "blocker",
+      "count": 0,
+      "share": 0.0,
+      "is_blocker": true
+    },
+    {
+      "id": "post_purchase_validation",
+      "label": "Post-purchase validation (overcame hesitation)",
+      "category": "validation",
+      "count": 0,
+      "share": 0.0,
+      "is_blocker": false
+    }
+  ]
+}

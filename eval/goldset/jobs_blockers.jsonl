@@ -1,0 +1,12 @@
+{"text": "Added this kurta to my wishlist until EORS. Will buy after the sale.", "jobs": ["bookmark_later", "wait_for_sale"], "blockers": ["sale_timing"], "postponement_beyond_30d": "yes"}
+{"text": "Confused between two pairs on my shortlist. Size chart is unclear so I have not ordered.", "jobs": ["shortlist_compare", "intent_blocked"], "blockers": ["size_chart", "fit"], "postponement_beyond_30d": "unknown"}
+{"text": "Saved for later, waiting for salary. Looks different in haul videos so postponing the buy.", "jobs": ["bookmark_later"], "blockers": ["photo_mismatch"], "postponement_beyond_30d": "yes"}
+{"text": "Won't buy until I know the size. The size chart is useless.", "jobs": ["intent_blocked"], "blockers": ["size_chart", "fit"], "postponement_beyond_30d": "unknown"}
+{"text": "Myntra or Ajio? Need to compare these two dresses before I purchase.", "jobs": ["shortlist_compare"], "blockers": ["competitor_check"], "postponement_beyond_30d": "unknown"}
+{"text": "Keeping this for a wedding, not sure it will look good in person.", "jobs": ["occasion_social"], "blockers": ["styling_occasion", "social_validation"], "postponement_beyond_30d": "unknown"}
+{"text": "Liked the pic so I saved it. Not sure I will actually buy.", "jobs": ["impulse_park"], "blockers": [], "postponement_beyond_30d": "unknown"}
+{"text": "I love this kurta but it looks fake and the return policy worries me.", "jobs": ["intent_blocked"], "blockers": ["authenticity", "returns"], "postponement_beyond_30d": "unknown"}
+{"text": "Not enough reviews yet so I am waiting before I buy.", "jobs": ["unknown"], "blockers": ["review_volume_trust"], "postponement_beyond_30d": "unknown"}
+{"text": "Wishlist checkout failed during payment so the saved item is still sitting there.", "jobs": ["bookmark_later"], "blockers": ["delivery_checkout_saved"], "postponement_beyond_30d": "unknown"}
+{"text": "Saving this for later when I have money. Just bookmarking, not buying now.", "jobs": ["bookmark_later"], "blockers": [], "postponement_beyond_30d": "yes"}
+{"text": "I love this dress but the size chart is unclear so I will not buy yet.", "jobs": ["intent_blocked"], "blockers": ["size_chart", "fit"], "postponement_beyond_30d": "unknown"}

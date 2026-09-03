@@ -1,0 +1,20 @@
+{
+  "purpose": "50–100 labeled snippets for relevance and job/blocker evaluation. Empty until labeling starts.",
+  "relevance.jsonl": {
+    "fields": {
+      "text": "verbatim snippet",
+      "is_relevant": "boolean — relevant_to_wishlist_conversion",
+      "relevance_reasons": "array of tags",
+      "notes": "optional"
+    }
+  },
+  "jobs_blockers.jsonl": {
+    "fields": {
+      "text": "verbatim snippet",
+      "jobs": "array of job ids",
+      "blockers": "array of blocker ids",
+      "postponement_beyond_30d": "yes | no | unknown",
+      "notes": "optional"
+    }
+  }
+}

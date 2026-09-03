@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f5f5f6;
+  color: #282c3f;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 0% -10%, rgba(255, 63, 108, 0.08), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(40, 44, 63, 0.05), transparent 50%);
+  background-attachment: fixed;
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible {
+  outline: 2px solid #ff3f6c;
+  outline-offset: 2px;
+}
+
+@layer components {
+  .myntra-chip {
+    @apply rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide;
+    border-color: #e9e9eb;
+    background: #fff;
+    color: #535766;
+  }
+
+  .myntra-chip-active {
+    border-color: #ff3f6c;
+    background: #fff4f6;
+    color: #ff3f6c;
+  }
+
+  .dashboard-hero-glow {
+    background:
+      radial-gradient(circle at 92% 8%, rgba(255, 63, 108, 0.14), transparent 42%),
+      radial-gradient(circle at 4% 88%, rgba(40, 44, 63, 0.06), transparent 38%),
+      linear-gradient(135deg, #fff8f9 0%, #ffffff 48%, #fafafa 100%);
+  }
+
+  .section-accent {
+    @apply relative pl-3;
+  }
+
+  .section-accent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    bottom: 0.15rem;
+    width: 3px;
+    border-radius: 9999px;
+    background: linear-gradient(180deg, #ff3f6c, #ff8fa8);
+  }
+}

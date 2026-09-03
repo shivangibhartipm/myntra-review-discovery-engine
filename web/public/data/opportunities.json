@@ -1,0 +1,1979 @@
+{
+  "generated_at": "2026-09-01T12:10:48",
+  "present_version": "present_v1",
+  "headline": "Wishlist → purchase: within 30 days and overall",
+  "windows": {
+    "as_of": "2026-09-01T12:10:48",
+    "recency_start": "2026-06-03T12:10:48",
+    "primary_start": "2025-09-01T12:10:48",
+    "trend_start": "2024-09-01T12:10:48",
+    "trend_end": "2025-03-01T12:10:48",
+    "pdp_start": "2025-09-01T12:10:48"
+  },
+  "corpus_health": {
+    "n_unfiltered": 36118,
+    "n_relevant": 264,
+    "yield_by_source": {
+      "app_store": {
+        "unfiltered": 404,
+        "scored": 404,
+        "relevant": 1,
+        "yield": 0.0025
+      },
+      "play": {
+        "unfiltered": 34082,
+        "scored": 34082,
+        "relevant": 204,
+        "yield": 0.006
+      },
+      "youtube": {
+        "unfiltered": 1632,
+        "scored": 1632,
+        "relevant": 59,
+        "yield": 0.0362
+      }
+    },
+    "counts": {
+      "by_source": {
+        "app_store": 404,
+        "play": 34082,
+        "youtube": 1632
+      },
+      "by_layer": {
+        "recency_90d": 26378,
+        "primary_12m": 9743
+      },
+      "by_source_layer": {
+        "app_store": {
+          "recency_90d": 404
+        },
+        "play": {
+          "primary_12m": 8353,
+          "recency_90d": 25729
+        },
+        "youtube": {
+          "primary_12m": 1390,
+          "recency_90d": 242
+        }
+      }
+    },
+    "windows": {
+      "as_of": "2026-09-01T12:10:48",
+      "recency_start": "2026-06-03T12:10:48",
+      "primary_start": "2025-09-01T12:10:48",
+      "trend_start": "2024-09-01T12:10:48",
+      "trend_end": "2025-03-01T12:10:48",
+      "pdp_start": "2025-09-01T12:10:48"
+    },
+    "collected_at": "2026-09-01T12:10:48",
+    "last_run": {
+      "run_id": "bd7982cd-4470-4875-8574-3665c0bd7e78",
+      "phase": "present",
+      "started_at": "2026-09-01T12:10:48",
+      "finished_at": null,
+      "counts_in": 0,
+      "counts_out": 0
+    },
+    "recent_runs": [
+      {
+        "run_id": "bd7982cd-4470-4875-8574-3665c0bd7e78",
+        "phase": "present",
+        "started_at": "2026-09-01T12:10:48",
+        "counts_in": 0,
+        "counts_out": 0,
+        "error_count": 0
+      },
+      {
+        "run_id": "7f0fe06e-bd3d-4e31-b0b5-a43e847dbe4b",
+        "phase": "rank",
+        "started_at": "2026-08-28T10:26:31",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "eefba3c4-9321-404d-b79a-2cceca4f310a",
+        "phase": "present",
+        "started_at": "2026-08-28T10:26:31",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "0bde18f0-1e70-4e3e-8ea2-3baccd196d42",
+        "phase": "cluster",
+        "started_at": "2026-08-28T10:25:45",
+        "counts_in": 267,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "bbd71802-26ac-4d8e-a12c-0bff131916d3",
+        "phase": "extract",
+        "started_at": "2026-08-28T10:25:43",
+        "counts_in": 267,
+        "counts_out": 267,
+        "error_count": 0
+      },
+      {
+        "run_id": "956c0f44-9b9d-4012-bb65-fa6974466a9e",
+        "phase": "filter",
+        "started_at": "2026-08-28T10:25:38",
+        "counts_in": 36121,
+        "counts_out": 267,
+        "error_count": 0
+      },
+      {
+        "run_id": "8cc44230-adbf-4117-9e72-c7b073a8aa1f",
+        "phase": "collect",
+        "started_at": "2026-08-28T09:56:52",
+        "counts_in": 20094,
+        "counts_out": 8921,
+        "error_count": 1
+      },
+      {
+        "run_id": "53337fea-b054-4203-a67b-7d9139fee12e",
+        "phase": "present",
+        "started_at": "2026-08-28T08:56:31",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "d1eb7a31-ab37-411f-8c59-947b80459561",
+        "phase": "present",
+        "started_at": "2026-08-28T08:56:22",
+        "counts_in": 0,
+        "counts_out": 0,
+        "error_count": 1
+      },
+      {
+        "run_id": "d7da3117-1e02-4176-aafe-7b1a76c2b49c",
+        "phase": "present",
+        "started_at": "2026-08-28T08:45:27",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "d57f8723-d82b-4eec-ae0b-38399fb16f9b",
+        "phase": "present",
+        "started_at": "2026-08-28T08:42:57",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      },
+      {
+        "run_id": "623a874d-6fb6-4ae6-bc58-57e9302e6a50",
+        "phase": "present",
+        "started_at": "2026-08-28T08:33:01",
+        "counts_in": 12,
+        "counts_out": 12,
+        "error_count": 0
+      }
+    ],
+    "stuck_reason_catalog": [
+      {
+        "id": "stock_availability",
+        "label": "Stock / availability friction",
+        "category": "blocker",
+        "count": 28,
+        "share": 0.1061,
+        "is_blocker": true
+      },
+      {
+        "id": "price_value_hesitation",
+        "label": "Price / value hesitation",
+        "category": "blocker",
+        "count": 26,
+        "share": 0.0985,
+        "is_blocker": true
+      },
+      {
+        "id": "social_validation_review",
+        "label": "Social validation / review-seeking",
+        "category": "blocker",
+        "count": 8,
+        "share": 0.0303,
+        "is_blocker": true
+      },
+      {
+        "id": "styling_occasion_uncertainty",
+        "label": "Styling / occasion uncertainty",
+        "category": "blocker",
+        "count": 8,
+        "share": 0.0303,
+        "is_blocker": true
+      },
+      {
+        "id": "comparison_shopping",
+        "label": "Comparison shopping",
+        "category": "blocker",
+        "count": 6,
+        "share": 0.0227,
+        "is_blocker": true
+      },
+      {
+        "id": "wishlist_ux_friction",
+        "label": "Wishlist UX / product friction",
+        "category": "ux",
+        "count": 3,
+        "share": 0.0114,
+        "is_blocker": false
+      },
+      {
+        "id": "bookmark_not_buying",
+        "label": "Bookmarking-not-buying behavior",
+        "category": "blocker",
+        "count": 1,
+        "share": 0.0038,
+        "is_blocker": true
+      },
+      {
+        "id": "trust_quality_doubt",
+        "label": "Trust / quality doubt",
+        "category": "blocker",
+        "count": 1,
+        "share": 0.0038,
+        "is_blocker": true
+      },
+      {
+        "id": "trigger_to_purchase",
+        "label": "Trigger-to-purchase moment",
+        "category": "conversion",
+        "count": 1,
+        "share": 0.0038,
+        "is_blocker": false
+      },
+      {
+        "id": "fit_size_uncertainty",
+        "label": "Fit & size uncertainty",
+        "category": "blocker",
+        "count": 0,
+        "share": 0.0,
+        "is_blocker": true
+      },
+      {
+        "id": "post_purchase_validation",
+        "label": "Post-purchase validation (overcame hesitation)",
+        "category": "validation",
+        "count": 0,
+        "share": 0.0,
+        "is_blocker": false
+      }
+    ]
+  },
+  "message": null,
+  "briefing": {
+    "goal": "Help more people buy at least one saved item — both eventually (wishlist → purchase in general) and within a month of saving it. Not a star-rating summary.",
+    "first_bet": {
+      "opportunity_id": "unknown_price",
+      "problem": "Users hesitate on a saved item because the current price feels too high.",
+      "why": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+      "lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "quote": "",
+      "delay_strength": "This often makes people wait more than a month",
+      "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+      "how_common": "One of the most common reasons people mention (25.8%)",
+      "waiting_past_30d": "Most comments here say people wait more than a month (100.0%)"
+    },
+    "scenarios": [
+      {
+        "id": "general",
+        "title": "Wishlist → purchase (in general)",
+        "summary": "Wishlist → purchase in general fails when shoppers hit blockers after saving — price, delivery or checkout of a saved item, and sale timing. This is about ever converting a saved item, not only the 30-day clock.",
+        "evidence": [
+          "Users wait for a sale or price drop before buying saved items because they are waiting for sale timing (for example EORS). — This often stops people from buying a saved item at all",
+          "Users wait for a sale or price drop before buying saved items because the current price feels too high. — This often stops people from buying a saved item at all",
+          "Users hesitate on a saved item because the current price feels too high. — This often keeps a saved item from becoming an order",
+          "price: 41.0% of comments about this",
+          "delivery or checkout of a saved item: 9.9% of comments about this"
+        ],
+        "opportunity_ids": [
+          "wait_for_sale_sale_timing",
+          "wait_for_sale_price",
+          "unknown_price"
+        ]
+      },
+      {
+        "id": "within_30d",
+        "title": "Within 30 days of saving",
+        "summary": "Within 30 days of saving, the buy most often slips because: Users hesitate on a saved item because the current price feels too high. Most comments here say people wait more than a month (100.0%).",
+        "evidence": [
+          "Users hesitate on a saved item because the current price feels too high. — Most comments here say people wait more than a month (100.0%)",
+          "Users save items as bookmarks instead of buying now because the product looks different than photos or haul videos. — Most comments here say people wait more than a month (100.0%)",
+          "Users hesitate on a saved item because they are checking a competitor before committing. — Some comments here say people wait more than a month (66.7%)",
+          "Waiting for a sale (job share): 15.5%"
+        ],
+        "opportunity_ids": [
+          "unknown_price",
+          "bookmark_later_photo_mismatch",
+          "unknown_competitor_check"
+        ]
+      }
+    ],
+    "demographic_segments": [
+      {
+        "id": "deal_hunters",
+        "label": "Deal hunters / sale shoppers",
+        "diff": "They save items and wait for EORS or a price drop — the list works like a personal sale alert.",
+        "n": 26,
+        "share": 0.0974,
+        "opportunity_ids": [
+          "unknown_price",
+          "wait_for_sale_sale_timing",
+          "intent_blocked_fit"
+        ]
+      },
+      {
+        "id": "repeat_shoppers",
+        "label": "Repeat / loyal shoppers",
+        "diff": "They order on Myntra regularly but still save items — loyalty does not mean fast conversion.",
+        "n": 25,
+        "share": 0.0936,
+        "opportunity_ids": []
+      },
+      {
+        "id": "first_time",
+        "label": "First-time shoppers",
+        "diff": "New buyers save while learning trust, fit, and whether products look like the photos.",
+        "n": 9,
+        "share": 0.0337,
+        "opportunity_ids": []
+      },
+      {
+        "id": "occasion_office",
+        "label": "Office / workwear shoppers",
+        "diff": "They save office looks and hold off until the outfit feels professional and fits right.",
+        "n": 5,
+        "share": 0.0187,
+        "opportunity_ids": [
+          "occasion_social_styling_occasion"
+        ]
+      },
+      {
+        "id": "budget_salary",
+        "label": "Budget / salary-cycle shoppers",
+        "diff": "They save until salary or budget allows — timing drives the delay, not lack of desire.",
+        "n": 4,
+        "share": 0.015,
+        "opportunity_ids": [
+          "unknown_price",
+          "bookmark_later_photo_mismatch",
+          "intent_blocked_fit"
+        ]
+      },
+      {
+        "id": "occasion_wedding",
+        "label": "Wedding / occasion shoppers",
+        "diff": "They save wedding or family-event outfits and wait until the look feels right for the day.",
+        "n": 4,
+        "share": 0.015,
+        "opportunity_ids": [
+          "occasion_social_styling_occasion"
+        ]
+      },
+      {
+        "id": "genz_youth",
+        "label": "Gen Z / young shoppers",
+        "diff": "College or Gen Z cues show up with hesitation — often about price, photos, or first purchases.",
+        "n": 2,
+        "share": 0.0075,
+        "opportunity_ids": [
+          "bookmark_later_photo_mismatch",
+          "bookmark_later_price"
+        ]
+      },
+      {
+        "id": "occasion_festive",
+        "label": "Festive shoppers",
+        "diff": "They save festive outfits and may wait for the right sale or styling confidence before buying. Explicit cues are thin in wishlist-relevant comments; this share is from the wider corpus.",
+        "n": 24,
+        "share": 0.0007,
+        "opportunity_ids": [
+          "occasion_social_styling_occasion"
+        ]
+      },
+      {
+        "id": "parents",
+        "label": "Parents buying for kids",
+        "diff": "They save kids’ or family items and often need extra fit and trust before buying. Explicit cues are thin in wishlist-relevant comments; this share is from the wider corpus.",
+        "n": 24,
+        "share": 0.0007,
+        "opportunity_ids": []
+      }
+    ],
+    "wishlist_signals": {
+      "n_corpus": 36118,
+      "n_relevant": 264,
+      "n_wishlist_language": 56,
+      "n_freq_add": 2,
+      "n_freq_buy": 5,
+      "by_source": {
+        "play": 28,
+        "youtube": 28
+      },
+      "add_reasons": {
+        "impulse_park": 1,
+        "haul_photo": 1,
+        "compare": 1,
+        "wait_for_sale": 3,
+        "price_track": 1
+      },
+      "behavior_themes": {
+        "price_value_hesitation": 33,
+        "wishlist_ux_friction": 3,
+        "social_validation_review": 29,
+        "stock_availability": 28,
+        "bookmark_not_buying": 1,
+        "styling_occasion_uncertainty": 8,
+        "comparison_shopping": 7,
+        "trust_quality_doubt": 1,
+        "trigger_to_purchase": 1
+      },
+      "theme_samples": {
+        "price_value_hesitation": [
+          "The only thing that makes this app interesting is the discount codes that they offer in special events overall it's quick easy and convenient",
+          "it's good but sum time it's too expensive",
+          "the app doesn't work smoothly and is way too expensive !"
+        ],
+        "wishlist_ux_friction": [
+          "exploring wishlist, wishlisted , bookmark",
+          "app is extremely slow , it takes forever to search something and then lands on \"oops something went wrong\" (It is not my network issue). once clicked on any item, it opens as a 3/4th page pop up(show…",
+          "worst experience, every time tutorial double tap to wishlist just fed-up."
+        ],
+        "social_validation_review": [
+          "Worth buying Quality is sooo good",
+          "Myntra is honestly one of my favourite shopping apps! ❤️ The app is very easy to use. the collection is amazing & there are always great discounts & offers. I love how easy it is to search products c…",
+          "every product I ordered is really good and worth buying"
+        ],
+        "stock_availability": [
+          "1-star experience. I contacted Myntra customer support TWICE about the same issue. The belt I wanted repeatedly showed as non-deliverable to my PIN code in the morning, then suddenly became deliverab…",
+          "If I add something in my cart then why has it gone out of stock",
+          "absolutely horrible delivery I placed and order twice from 2 different accounts and it was delayed both times, the customer service is also absolutely trash, I'm just not able to chat with anyone, it…"
+        ],
+        "bookmark_not_buying": [
+          "Hahah my Wishlist crying in corner🥹🤪"
+        ],
+        "styling_occasion_uncertainty": [
+          "ye office wear bhi hai na",
+          "Excellent formal trousers. The fabric feels premium, the black color looks rich and classy, and the fit is perfect. Comfortable for all-day office wear with a professional look. Great value for money…",
+          "Myntra is my go-to for fashion. Huge collection, genuine brands, and sizes are mostly accurate. The filter options save time, and delivery is super quick even to small towns. Exchange/return process …"
+        ],
+        "comparison_shopping": [
+          "2 days ago I shortlisted few nikes to buy but I didn't order it because at that moment I was a bit busy with my work and I saw sale is for few days. Today I wanted to order a what the all discounts o…",
+          "This shopping app provides excellent product recommendations and lets us compare products with other apps. The prices are good, and the quality of the products is also very nice. I am very happy with…",
+          "My three wishes:- BMW My amazon wishlist Last wish will be More 10 wishes . Bhai agar mere paas ayi ma to ese loot leti 😂😂😂"
+        ],
+        "trust_quality_doubt": [
+          "Myntra shows an easy return policy, but my return pickup experience was very disappointing. Three times, the pickup partner, Ekart, falsely updated the status as “attempted but unsuccessful,” even th…"
+        ],
+        "trigger_to_purchase": [
+          "i have not usse this app but my friend recommended"
+        ]
+      },
+      "freq_add_samples": [
+        "worst experience, every time tutorial double tap to wishlist just fed-up.",
+        "I have felt quite cheated. Every time I view a product or add it to my wishlist, the price refuses to drop. Frequently, I see prices decrease for every size except the one I actually need. This consi…"
+      ],
+      "freq_buy_samples": [
+        "What happened to Myntras wishlist category? it save a lott of time. sometimes I only open wishlist products, do quick search and order. please bring it back",
+        "it's very slow... can't see my wishlist, my order",
+        "I hate myntra poor service it's totally froud company. thy scamed my 750rs in myntra credit that's I was pursuing for my wishlist buying. without reason myntra ban my account. and mail the customer s…",
+        "Very Bad Experience....Ordered a product (Pre-paid) .... Application got deleted...Faced problems while login and all my items in wishlist and orders got deleted...I informed it via customer care..Go…",
+        "Where is the top from the girl who's myntra wishlist has been purchased"
+      ],
+      "wishlist_samples": [
+        "exploring wishlist, wishlisted , bookmark",
+        "app is extremely slow , it takes forever to search something and then lands on \"oops something went wrong\" (It is not my network issue). once clicked on any item, it opens as a 3/4th page pop up(show…",
+        "prices get increased after adding the product to the wishlist specially for the luxury brands.",
+        "I have given so many reviews but I never got any prize... this is just a scam... if you are not willing to provide any prize then why have you written there that you will get a reward..... stop scamm…",
+        "How to add products to wishlist for affiliate first time I added next time how to add, and how to sale",
+        "I love to shop from myntra because it gives me good offers and myntra cash and I get my wishlist products in reasonable price ❤️",
+        "if i put anything on wishlist today the next day price of the product will increase",
+        "no wish list for me, it means more ads"
+      ]
+    },
+    "questions": [
+      {
+        "id": "why_wishlist",
+        "question": "Why do users add fashion products to their wishlist?",
+        "scenario": "both",
+        "answer": "Users mainly add fashion products to their wishlist to wait for a sale, salary, or price drop, park items to buy later on purpose, and save something that caught their eye. These are inferred from save/compare/sale language in comments that mention wishlist or saved items.",
+        "evidence": [
+          "Explicit wishlist/save language in 56 of 36118 corpus comments",
+          "wait for a sale, salary, or price drop: seen in wishlist-tagged comments",
+          "park items to buy later on purpose: seen in wishlist-tagged comments",
+          "save something that caught their eye: seen in wishlist-tagged comments",
+          "check hauls or photos before committing: seen in wishlist-tagged comments"
+        ],
+        "opportunity_ids": [
+          "wait_for_sale_sale_timing",
+          "wait_for_sale_price",
+          "bookmark_later_price"
+        ]
+      },
+      {
+        "id": "stops_purchase",
+        "question": "What prevents wishlisted products from being purchased, and what uncertainties remain after users like an item?",
+        "scenario": "general",
+        "answer": "What usually prevents a wishlisted product from being purchased is price, delivery or checkout of a saved item, sale timing, and returns. Even after users have found a product they like, leftover uncertainty is mostly fabric or quality, photos vs real product, and review volume or trust. That doubt is often what keeps a saved item from becoming an order.",
+        "evidence": [
+          "price: 41.0% of comments about this",
+          "delivery or checkout of a saved item: 9.9% of comments about this",
+          "sale timing: 9.8% of comments about this",
+          "returns: 7.4% of comments about this",
+          "fabric or quality: 6.9% of comments about this",
+          "photos vs real product: 6.4% of comments about this",
+          "review volume or trust: 3.0% of comments about this"
+        ],
+        "opportunity_ids": [
+          "unknown_price",
+          "intent_blocked_fit",
+          "wait_for_sale_price",
+          "bookmark_later_price"
+        ]
+      },
+      {
+        "id": "postpone_30d",
+        "question": "What causes users to postpone a purchase?",
+        "scenario": "within_30d",
+        "answer": "Users most often postpone a purchase because they hesitate on a saved item because the current price feels too high. Most comments here say people wait more than a month (100.0%) Common “I’ll buy later” triggers are sales (for example EORS), price drops, and saving for later on purpose.",
+        "evidence": [
+          "hesitate on a saved item because the current price feels too high — Most comments here say people wait more than a month (100.0%)",
+          "save items as bookmarks instead of buying now because the product looks different than photos or haul videos — Most comments here say people wait more than a month (100.0%)",
+          "hesitate on a saved item because they are checking a competitor before committing — Some comments here say people wait more than a month (66.7%)",
+          "Waiting for a sale shows up in about 15.5% of these comments",
+          "Saving for later / on impulse: about 22.4%"
+        ],
+        "opportunity_ids": [
+          "unknown_price",
+          "bookmark_later_photo_mismatch",
+          "unknown_competitor_check"
+        ]
+      },
+      {
+        "id": "compare_shortlist",
+        "question": "How do users compare multiple shortlisted products?",
+        "scenario": "both",
+        "answer": "When users compare shortlisted products (about 9.4% of comments), they usually ask “which of these?”, check Myntra against another store, or wait until size or price feels clearer. That back-and-forth can delay or block the buy.",
+        "evidence": [
+          "Share of people comparing options: 9.4%"
+        ],
+        "opportunity_ids": [
+          "intent_blocked_fit",
+          "shortlist_compare_open",
+          "shortlist_compare_review_volume_trust",
+          "shortlist_compare_competitor_check"
+        ]
+      },
+      {
+        "id": "outside_myntra",
+        "question": "What information do users seek outside Myntra before purchasing?",
+        "scenario": "both",
+        "answer": "Before purchasing, users look outside Myntra for checking a competitor and photos vs real product. Typical checks: competitor price or size, photos vs real product, and friends’ or haul-video opinions.",
+        "evidence": [
+          "checking a competitor: 6.7%",
+          "photos vs real product: 6.4%",
+          "Community sources in themes: youtube 22.4%"
+        ],
+        "opportunity_ids": [
+          "unknown_competitor_check",
+          "shortlist_compare_competitor_check",
+          "bookmark_later_price"
+        ]
+      },
+      {
+        "id": "roles",
+        "question": "What role do fit, size, styling, price, reviews, occasion and social validation play?",
+        "scenario": "both",
+        "answer": "Fit, size, styling, price, reviews, occasion, and social validation each act as either a reason to save or a reason not to buy yet. Price, sales, and fit usually matter most for whether a saved item gets bought; generic quality talk can be loud without being the main conversion blocker.",
+        "evidence": [
+          "fit: about 1.5% of comments about this",
+          "size: about 1.9% of comments about this",
+          "styling: about 3.0% of comments about this",
+          "price: about 50.8% of comments about this",
+          "reviews: about 3.0% of comments about this",
+          "occasion: about 5.7% of comments about this",
+          "social validation: little clear talk in these comments"
+        ],
+        "opportunity_ids": []
+      },
+      {
+        "id": "intent_vs_bookmark",
+        "question": "When do users use the wishlist as genuine purchase intent versus simply as a bookmarking mechanism?",
+        "scenario": "both",
+        "answer": "Genuine purchase intent shows up when someone wants the item but gets stuck (about 16.3% of these comments). Bookmarking shows up when they are saving for later or on impulse (about 37.5%). Waiting for a sale (about 15.5%) is still real interest — they plan to buy, just not at today’s price. A negative review is not the same as “I want this but can’t check out yet.”",
+        "evidence": [
+          "Want it but stuck: 12.9%",
+          "Saving for later: 22.0%",
+          "Saving on impulse: 0.4%",
+          "Waiting for a sale: 15.5%"
+        ],
+        "opportunity_ids": [
+          "intent_blocked_fit",
+          "occasion_social_styling_occasion",
+          "bookmark_later_price",
+          "bookmark_later_photo_mismatch"
+        ]
+      },
+      {
+        "id": "wishlist_frequency",
+        "question": "How often do users add products to their wishlist?",
+        "scenario": "both",
+        "answer": "Some users describe how often they add to wishlist: 2 comment(s) mention frequent or habitual saving (for example “every time”, “often”, or “daily”).",
+        "evidence": [
+          "Frequency-add mentions: 2",
+          "worst experience, every time tutorial double tap to wishlist just fed-up.",
+          "I have felt quite cheated. Every time I view a product or add it to my wishlist, the price refuses to drop. Frequently, I see prices decrease for every size except the one I actually need. This consi…"
+        ],
+        "opportunity_ids": [
+          "unknown_price"
+        ]
+      },
+      {
+        "id": "wishlist_conversion",
+        "question": "How often do users buy products from their wishlist?",
+        "scenario": "both",
+        "answer": "5 comment(s) describe buying from (or never buying from) a wishlist. That is not enough to quantify conversion rate, but it shows people do talk about wishlist → purchase gaps.",
+        "evidence": [
+          "Wishlist-buy mentions: 5",
+          "What happened to Myntras wishlist category? it save a lott of time. sometimes I only open wishlist products, do quick search and order. please bring it back",
+          "it's very slow... can't see my wishlist, my order",
+          "I hate myntra poor service it's totally froud company. thy scamed my 750rs in myntra credit that's I was pursuing for my wishlist buying. without reason myntra ban my account. and mail the customer s…"
+        ],
+        "opportunity_ids": [
+          "unknown_price"
+        ]
+      },
+      {
+        "id": "segments",
+        "question": "How do these behaviors differ across user segments?",
+        "scenario": "both",
+        "answer": "Wishlist hesitation is not one behavior — it splits by shopper type, not by phone or app version. We only name a segment when shoppers use explicit cues (sale wait, salary talk, wedding mention, etc.); shares below count comments with that cue, not every wishlist user. Price-first savers (Deal hunters / sale shoppers and Budget / salary-cycle shoppers — about 11.2% of these comments): the list works like a deal tracker. They plan to buy, but only after EORS, a price drop, or payday — the delay is timing or price, not loss of interest. Loyal repeat shoppers (9.4%): they already order on Myntra but still park items. Being a regular customer does not mean saved items convert quickly. Still-building-trust shoppers (First-time shoppers — about 3.4%): new or cautious buyers save while they learn fit, quality, and whether products match photos. The wishlist is a shortlist for research, not a committed buy list. Occasion-led shoppers (Office / workwear shoppers and Wedding / occasion shoppers — about 3.4%): they save outfits for weddings, office, or festivals and pause until the look fits the moment — styling confidence gates the buy more than price. Gen Z, wedding, and festive cues are thinner in public wishlist talk (Office / workwear shoppers, Budget / salary-cycle shoppers, and Wedding / occasion shoppers); treat those shares as directional and validate with survey quotas.",
+        "evidence": [
+          "Deal hunters / sale shoppers: 9.7% (n=26)",
+          "Repeat / loyal shoppers: 9.4% (n=25)",
+          "First-time shoppers: 3.4% (n=9)",
+          "Office / workwear shoppers: 1.9% (n=5)",
+          "Budget / salary-cycle shoppers: 1.5% (n=4)",
+          "Wedding / occasion shoppers: 1.5% (n=4)"
+        ],
+        "opportunity_ids": [
+          "unknown_price",
+          "wait_for_sale_sale_timing",
+          "intent_blocked_fit",
+          "occasion_social_styling_occasion"
+        ]
+      },
+      {
+        "id": "loud_vs_metric",
+        "question": "What unmet needs emerge consistently across user conversations?",
+        "scenario": "both",
+        "answer": "Across user conversations, the unmet needs that emerge most consistently are gaps shoppers still need filled after they save an item — not restating the delay reasons themselves. The strongest repeating needs are: a price they feel is fair enough to buy the saved item now, clear alerts when a saved item’s price drops or a sale starts, timely sale / price-drop help so saved items don’t sit until a sale, and proof the product looks like the photos or haul videos. These are what people are missing before a wishlisted product turns into a purchase.",
+        "evidence": [
+          "a price they feel is fair enough to buy the saved item now: 38.6%",
+          "clear alerts when a saved item’s price drops or a sale starts: 11.7%",
+          "timely sale / price-drop help so saved items don’t sit until a sale: 9.0%",
+          "proof the product looks like the photos or haul videos: 7.4%",
+          "Often mentioned, weaker as a wishlist unmet need: hesitate on a saved item because fabric or quality feels uncertain before they commit to a saved item (mentioned #4, conversion rank #12)"
+        ],
+        "opportunity_ids": [
+          "unknown_price",
+          "intent_blocked_fit",
+          "wait_for_sale_sale_timing",
+          "wait_for_sale_price"
+        ]
+      }
+    ]
+  },
+  "opportunities": [
+    {
+      "opportunity_id": "unknown_price",
+      "problem_one_liner": "Users hesitate on a saved item because the current price feels too high.",
+      "member_n": 69,
+      "rank_90d": 1,
+      "rank_12m": 2,
+      "volume_rank": 2,
+      "rank_score": 2.5374,
+      "rank_score_90d": 2.5374,
+      "rank_score_12m": 2.39984,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.2584,
+      "prevalence_unfiltered": 0.0019,
+      "postponement_rate": 1.0,
+      "recency_90d_share": 0.7391,
+      "actionability": 0.625,
+      "multi_source_support": 0.35,
+      "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+      "comparison_notes": "unknown_price outranks bookmark_later_photo_mismatch for a buy within 30 days of save (recent 90 days): composite conversion score is higher on the 90-day view.",
+      "job_mix": {
+        "unknown": 1.0
+      },
+      "blocker_mix": {
+        "price": 1.0
+      },
+      "source_mix": {
+        "play": 1.0
+      },
+      "jobs": [
+        "unknown"
+      ],
+      "blockers": [
+        "price"
+      ],
+      "sources": [
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 1.0
+      },
+      "segment_slices": [
+        {
+          "clue": "category:myntra_app",
+          "n": 69,
+          "postponement_rate": 1.0
+        },
+        {
+          "clue": "platform:android",
+          "n": 69,
+          "postponement_rate": 1.0
+        }
+      ],
+      "corpus_layer_mix": {
+        "recency_90d": 0.7391,
+        "primary_12m": 0.2609
+      },
+      "categories": [
+        "myntra_app"
+      ],
+      "single_source_warning": true,
+      "suggested_lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "One of the most common reasons people mention (25.8%)",
+        "waiting_past_30d": "Most comments here say people wait more than a month (100.0%)",
+        "jobs": [],
+        "blockers": [
+          "price"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "8ff19972f23f79ceb6b9efa4b8a0126d",
+        "47295030c4f6b9ffc9886bf69a9fa3fe",
+        "1c55978a2c77da84f971c0f7f725de85",
+        "1a082f7c3ea89dd52821e2c6fa87eb7f",
+        "2edafac994c7183dcf712ed8e11b4c13",
+        "00f5a6bde3321925e47b9d2c4d9d59c4",
+        "a2eab421feecdb1d335d883a610413cd",
+        "8703cfa55087ba1e9739e248ea55bb81",
+        "cffccf2f066f99a826483d4e5e288d47",
+        "42999dc9b09d7638a7b4136448c3d0d6",
+        "9782327378330787eee084f9d15d8551",
+        "4e2f840cbf0416fed6db85e509f52542",
+        "807352d5093bec272d17ae08c64f4fac",
+        "fb208f71c96473c95764ee9751afac77",
+        "7427a1328ba1000b01397d688dd3fd2f",
+        "71926a2d507759aece6b50f7c69bda44",
+        "f732ef3bfb8b707fa141d1444ddca255",
+        "73af7524cc19b7eaef7ae6cc7e787a21",
+        "eccd81842e2db4a735f0a866cda1ff11",
+        "b123d9c331f47fe5f5c6bb5f0e57fa43",
+        "7a6365d7c69afdc2f1175d3269077391",
+        "aa7026713f41590eab631928dafdafed",
+        "0a3fbac05a65dc73cb5d9dfb0832177c",
+        "e8118fc7564057d73bafae70bd11cbb8",
+        "3130434fad273016b69a2c4635d9ecd7",
+        "6c77a2f51aff554fbd9ca5b00cbb04c8",
+        "d28ccd5c5e39dc61f0caf2821b636f93",
+        "eadf0854df5ac2bd3069003ee6bbfbd3",
+        "6e892dd02cff92fb34e6c28aaac586fe",
+        "40fa4847467f1b19d94b78a0f831df97",
+        "913509081a0dc314b5b1eebeacfca85c",
+        "0f8397d041f75319783340d822a2a637",
+        "2e44324b79ddb9e441dfbd8bbffe55e1",
+        "2091178870ad88543a077a715495521f",
+        "d5aff6f0db404f8b5135125cd30c7903",
+        "2c443f298770a74950463c0f9232d747",
+        "0837dfac066de7c1dc29497806f82c16",
+        "1eae34081dce0c24eb77f5a796742d99",
+        "5396284e638f50dd281f96834baca929",
+        "61e96b8a72a869efc1f9a31465da4d20",
+        "28b977f6ad1638f4a957d2fa252618b2",
+        "8fbcd4dbca1970d03bd1d3cd184f302b",
+        "1eb4723030e0308f7162a5023222d47e",
+        "037903b6f44b83f6e8a0e378dbb2e0b4",
+        "7ffb19e23d66eaaa6afb759dacee3476",
+        "7ff940c9149240340a4e74eaa2385967",
+        "d3e7f0b2ab8d00f467be4693cd570dc6",
+        "4584b790ba35d7396228ffc5d8dce405",
+        "74e2793c03529fccf9e5615bc86768bb",
+        "ec281be7f98e28942e0b49ef22304132",
+        "58b5461be2ddc1849108ffc58c68b046",
+        "b2bc9d9f1076b7138ef039a15bc90ac9",
+        "f50a28639222ee71ef94f77b3731785f",
+        "f943c94f3a09c45a8018e748b8d2a27d",
+        "e185b6daca03037b21cd1225f290d977",
+        "907064e6df68774e59af3c6541abeca2",
+        "53284ec6858d2dc0b18664005784b55f",
+        "030daca08f8a7362e9b029914ee0b7ce",
+        "4d7fcfebf0ca7598027d614701d68df7",
+        "88b3b948fe9d76ec78ec35a404bbb97e",
+        "43ad178c2ae16b2bf4d767641eb2a066",
+        "f77a0069f3a10d336df060aa3e864b1c",
+        "b0db950e44a62b33024869bad17d01c0",
+        "dce59a6c4015bde98a101036e725112a",
+        "5c1d0b17e0c94c3ec63dc2d40c5c458a",
+        "5c10e0ade42c049fef05280d644e2197",
+        "419af3bf33b17aef5940243bc7f31bb3",
+        "7e42eaebe4cd85b4b746211670fbfef8",
+        "b8d2aa6f8c7a2b91b82acc2600c015dd"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "bookmark_later_photo_mismatch",
+      "problem_one_liner": "Users save items as bookmarks instead of buying now because the product looks different than photos or haul videos.",
+      "member_n": 16,
+      "rank_90d": 2,
+      "rank_12m": 1,
+      "volume_rank": 5,
+      "rank_score": 2.5064,
+      "rank_score_90d": 2.5064,
+      "rank_score_12m": 2.40273,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.0637,
+      "prevalence_unfiltered": 0.0005,
+      "postponement_rate": 1.0,
+      "recency_90d_share": 0.7647,
+      "actionability": 0.775,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Saving is bookmarking, not near-term purchase intent, so 30-day conversion stays low.",
+      "comparison_notes": "bookmark_later_photo_mismatch outranks wait_for_sale_sale_timing for a buy within 30 days of save (recent 90 days): lower 30-day delay score (4 vs 5); higher share waiting past 30 days (1.00 vs 0.44); beats wait_for_sale_sale_timing despite lower share of all reviews (loudness) (0.001 vs 0.001).",
+      "job_mix": {
+        "bookmark_later": 1.0
+      },
+      "blocker_mix": {
+        "photo_mismatch": 1.0
+      },
+      "source_mix": {
+        "play": 0.875,
+        "youtube": 0.125
+      },
+      "jobs": [
+        "bookmark_later"
+      ],
+      "blockers": [
+        "photo_mismatch"
+      ],
+      "sources": [
+        "play",
+        "youtube"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 1.0,
+        "other": 0.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.75,
+        "primary_12m": 0.25
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Better photos / haul proof on the PDP for saved items",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "A fairly common reason (6.4%)",
+        "waiting_past_30d": "Most comments here say people wait more than a month (100.0%)",
+        "jobs": [
+          "saving for later"
+        ],
+        "blockers": [
+          "photos vs real product"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "c5216a077a4c080efb5d3718c51abfac",
+        "6238b662b0fc738077400ed66b9ed2a9",
+        "2a79f576c0b45b434132b85309e85cca",
+        "220a208bd2d745dafb2a530f72342df3",
+        "b208a0dab5a96deca0a71f9fc57bc914",
+        "50207a4447606106daeec55a22d76c45",
+        "0738f8b6621ef754aef8bf1ca09cbee0",
+        "b68a7f1e3498adddeaa78fffaf9178e1",
+        "f4df20c9db42449f29da816c7a9bdccc",
+        "87c07f759c63cdd19af9fc2f9e4b8072",
+        "6db423213066f69c1b01d44a0cc7fd44",
+        "927cd63cc9d27bf60cfd37e9c566ea4c",
+        "aa8b10c544a44c4be7ac47e52611115f",
+        "33d7d6cba64d621ff15de55faed7706c",
+        "90b09674f0dd27a094735f3e43778da6",
+        "3a91fdbf67caef403549eca3a89d182a"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "wait_for_sale_sale_timing",
+      "problem_one_liner": "Users wait for a sale or price drop before buying saved items because they are waiting for sale timing (for example EORS).",
+      "member_n": 26,
+      "rank_90d": 3,
+      "rank_12m": 3,
+      "volume_rank": 3,
+      "rank_score": 2.3673,
+      "rank_score_90d": 2.3673,
+      "rank_score_12m": 2.18275,
+      "metric_relevance": 5.0,
+      "prevalence_relevant": 0.1011,
+      "prevalence_unfiltered": 0.0007,
+      "postponement_rate": 0.4444,
+      "recency_90d_share": 0.6667,
+      "actionability": 0.85,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Users park saved items until a sale window (EORS / price drop), so purchase slips past 30 days by design.",
+      "comparison_notes": "wait_for_sale_sale_timing outranks intent_blocked_fit for a buy within 30 days of save (recent 90 days): higher 30-day delay score (5 vs 4).",
+      "job_mix": {
+        "wait_for_sale": 1.0
+      },
+      "blocker_mix": {
+        "sale_timing": 1.0
+      },
+      "source_mix": {
+        "play": 0.9231,
+        "youtube": 0.0769
+      },
+      "jobs": [
+        "wait_for_sale"
+      ],
+      "blockers": [
+        "sale_timing"
+      ],
+      "sources": [
+        "play",
+        "youtube"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 1.0,
+        "other": 0.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.6538,
+        "primary_12m": 0.3462
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Wishlist price-drop alerts / sale countdown on saved items",
+      "plain": {
+        "delay_strength": "This often stops people from buying within a month",
+        "blocks_purchase_ever": "This often stops people from buying a saved item at all",
+        "how_common": "A fairly common reason (10.1%)",
+        "waiting_past_30d": "Some comments here say people wait more than a month (44.4%)",
+        "jobs": [
+          "waiting for a sale or price drop"
+        ],
+        "blockers": [
+          "sale timing"
+        ]
+      },
+      "quotes": [
+        {
+          "doc_id": "27fbf5014ba04849813db8c14c561fc9",
+          "source": "play",
+          "observed_at": "2026-08-06T13:30:55",
+          "quote": "wishlist products in reasonable price ❤️"
+        },
+        {
+          "doc_id": "1e714fed995ceb371d6cd1d2fa490f6d",
+          "source": "youtube",
+          "observed_at": "2026-07-21T15:23:30",
+          "quote": "Wishlist and waiting for discounts🎉🎉"
+        },
+        {
+          "doc_id": "3a0bda1e7b90d339f01feb413b35cb4f",
+          "source": "play",
+          "observed_at": "2026-08-05T10:46:38",
+          "quote": "wishlist today the next day price of the product will increase"
+        },
+        {
+          "doc_id": "5e1ab14b786dddb115e9f90101885f55",
+          "source": "play",
+          "observed_at": "2026-05-10T06:35:10",
+          "quote": "Every time I view a product or add it to my wishlist, the price refuses to drop. Frequently, I see prices decrease for every size except the one I actually need."
+        }
+      ],
+      "stuck_reason_mix": {
+        "price_value_hesitation": 1.0
+      },
+      "stuck_reasons": [
+        "Price / value hesitation"
+      ],
+      "member_doc_ids": [
+        "71e1c22f2bd74443fbae6c1f23d6579e",
+        "78707aee70fc91d98f92dcec79b14230",
+        "5e1ab14b786dddb115e9f90101885f55",
+        "a09e28e83563dac74f55738e389afcf8",
+        "37da6eac4cc5b414f6079633cabd9801",
+        "5e3d61ff2b115960a3355dd89b453bd5",
+        "3a0bda1e7b90d339f01feb413b35cb4f",
+        "099fad7018dc63bcff4d22fa4bdb1e50",
+        "27fbf5014ba04849813db8c14c561fc9",
+        "1e714fed995ceb371d6cd1d2fa490f6d",
+        "4ebe08a17e4f2fff7ed50903e64b8676",
+        "413d5204caa26cb9669e0182af541200",
+        "9d3bba84fd63f4481a430bebb04b8216",
+        "4634d784db3bd4cb45da76c3de3ed1c7",
+        "a5456acda30abad791c345c8d09f8a2b",
+        "b5956dcc824e6925c3b28ded9e6101a6",
+        "df0d63f512c1d405685c8c0f45d20946",
+        "ced0b2852d56cddfc78e9434f0894db2",
+        "274adccf07770aca6724a8f12bcc44fb",
+        "aad1e6780b253f0243c41fa4f8f2cfef",
+        "0d741f0ed98131984145eb72f571d0e4",
+        "68e8f074397c629855ea60ff55af4684",
+        "30f58ac13cc6f189d8178986b2370b1f",
+        "035d45f5a8c28afb5ac9671b8abcd996",
+        "fd047944bcd3d2436832709b5b2930d4",
+        "774d48739e9964f04da88e6634eba53e"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "intent_blocked_fit",
+      "problem_one_liner": "Users want the item but a concrete blocker stops checkout because they are unsure about size or fit before ordering a saved item.",
+      "member_n": 8,
+      "rank_90d": 4,
+      "rank_12m": 4,
+      "volume_rank": 8,
+      "rank_score": 2.10518,
+      "rank_score_90d": 2.10518,
+      "rank_score_12m": 2.02349,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.0337,
+      "prevalence_unfiltered": 0.0002,
+      "postponement_rate": 0.4444,
+      "recency_90d_share": 0.7778,
+      "actionability": 0.9,
+      "multi_source_support": 0.7,
+      "delay_mechanism": "Fit uncertainty stops checkout of an otherwise intended saved item within 30 days.",
+      "comparison_notes": "intent_blocked_fit outranks unknown_competitor_check for a buy within 30 days of save (recent 90 days): higher 30-day delay score (4 vs 3); lower share waiting past 30 days (0.44 vs 0.67).",
+      "job_mix": {
+        "intent_blocked": 0.8889,
+        "shortlist_compare": 0.1111
+      },
+      "blocker_mix": {
+        "fit": 0.5,
+        "fabric_quality": 0.125,
+        "photo_mismatch": 0.125,
+        "price": 0.125,
+        "size_chart": 0.125
+      },
+      "source_mix": {
+        "play": 1.0
+      },
+      "jobs": [
+        "intent_blocked",
+        "shortlist_compare"
+      ],
+      "blockers": [
+        "fit",
+        "fabric_quality",
+        "photo_mismatch",
+        "price",
+        "size_chart"
+      ],
+      "sources": [
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 1.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 0.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.75,
+        "primary_12m": 0.25
+      },
+      "categories": [
+        "myntra_app"
+      ],
+      "single_source_warning": true,
+      "suggested_lever": "Fit confidence on saved items (size recs, chart clarity)",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "Less common, but still shows up (3.4%)",
+        "waiting_past_30d": "Some comments here say people wait more than a month (44.4%)",
+        "jobs": [
+          "wanting the item but getting stuck",
+          "comparing a few options before choosing"
+        ],
+        "blockers": [
+          "fit",
+          "fabric or quality",
+          "photos vs real product",
+          "price",
+          "size chart"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {
+        "stock_availability": 0.25,
+        "trust_quality_doubt": 0.125
+      },
+      "stuck_reasons": [
+        "Stock / availability friction",
+        "Trust / quality doubt"
+      ],
+      "member_doc_ids": [
+        "12019cf628ee9c2093894ccc75527504",
+        "4cd74c39c354315e1d8ec9ad54fe0dcf",
+        "21b01ed039dd80fa2b80a9a8710d8a3f",
+        "45e177fa551d73b072f1018553ded62c",
+        "969fa3221cfa7990e30dbb2bb2291018",
+        "58340eb3d7c3a11c8dff86fa7a14c387",
+        "18955eed2ecbede8e56e628572c06376",
+        "d430b5ebd49d90fc1e3828ddb10d772b"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "unknown_competitor_check",
+      "problem_one_liner": "Users hesitate on a saved item because they are checking a competitor before committing.",
+      "member_n": 3,
+      "rank_90d": 5,
+      "rank_12m": 6,
+      "volume_rank": 12,
+      "rank_score": 2.07635,
+      "rank_score_90d": 2.07635,
+      "rank_score_12m": 1.67564,
+      "metric_relevance": 3.0,
+      "prevalence_relevant": 0.0112,
+      "prevalence_unfiltered": 0.0001,
+      "postponement_rate": 0.6667,
+      "recency_90d_share": 0.6667,
+      "actionability": 0.45,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+      "comparison_notes": "unknown_competitor_check outranks wait_for_sale_price for a buy within 30 days of save (recent 90 days): lower 30-day delay score (3 vs 5); higher share waiting past 30 days (0.67 vs 0.00); beats wait_for_sale_price despite lower share of all reviews (loudness) (0.000 vs 0.000).",
+      "job_mix": {
+        "unknown": 1.0
+      },
+      "blocker_mix": {
+        "competitor_check": 1.0
+      },
+      "source_mix": {
+        "youtube": 0.6667,
+        "play": 0.3333
+      },
+      "jobs": [
+        "unknown"
+      ],
+      "blockers": [
+        "competitor_check"
+      ],
+      "sources": [
+        "youtube",
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 1.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.6667,
+        "primary_12m": 0.3333
+      },
+      "categories": [
+        "myntra_haul",
+        "myntra_app"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "plain": {
+        "delay_strength": "This sometimes makes people wait, along with other reasons",
+        "blocks_purchase_ever": "This sometimes blocks the buy, along with other reasons",
+        "how_common": "Less common, but still shows up (1.1%)",
+        "waiting_past_30d": "Some comments here say people wait more than a month (66.7%)",
+        "jobs": [],
+        "blockers": [
+          "checking a competitor"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "db6dddf09dd2bcf79a0dfda6e95ea1bf",
+        "f681f23d81c1eec1780d80aa5a2a4aff",
+        "558af04d07bb94ecbed6b2b83a87ac23"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "wait_for_sale_price",
+      "problem_one_liner": "Users wait for a sale or price drop before buying saved items because the current price feels too high.",
+      "member_n": 14,
+      "rank_90d": 6,
+      "rank_12m": 5,
+      "volume_rank": 6,
+      "rank_score": 1.93865,
+      "rank_score_90d": 1.93865,
+      "rank_score_12m": 1.79336,
+      "metric_relevance": 5.0,
+      "prevalence_relevant": 0.0524,
+      "prevalence_unfiltered": 0.0004,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.6429,
+      "actionability": 0.85,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Users wait for a cheaper price on a saved item, stretching the add-to-buy clock beyond 30 days.",
+      "comparison_notes": "wait_for_sale_price outranks shortlist_compare_open for a buy within 30 days of save (recent 90 days): higher 30-day delay score (5 vs 4).",
+      "job_mix": {
+        "wait_for_sale": 1.0
+      },
+      "blocker_mix": {
+        "price": 0.8571,
+        "returns": 0.1429
+      },
+      "source_mix": {
+        "play": 0.9286,
+        "youtube": 0.0714
+      },
+      "jobs": [
+        "wait_for_sale"
+      ],
+      "blockers": [
+        "price",
+        "returns"
+      ],
+      "sources": [
+        "play",
+        "youtube"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.0714,
+        "other": 0.9286
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.6429,
+        "primary_12m": 0.3571
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Wishlist price-drop alerts / sale countdown on saved items",
+      "plain": {
+        "delay_strength": "This often stops people from buying within a month",
+        "blocks_purchase_ever": "This often stops people from buying a saved item at all",
+        "how_common": "A fairly common reason (5.2%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "waiting for a sale or price drop"
+        ],
+        "blockers": [
+          "price",
+          "returns"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "edce39fff163e46e5e13260f8e2a12df",
+        "d6ac685b0793e318afc8147643b873ab",
+        "b3e5240183efb647f3f7313a08fe13f5",
+        "c931129477657c7f831bce328fea0c5c",
+        "31417513d3f69697ff4289fb4c17ce53",
+        "b6fcb09b5ab80a5fb166ce8e9ea84dae",
+        "707337a52fc2530c3d9b02e2a8082516",
+        "00eec99c59ba05014eac3c8b4d30536d",
+        "7fca4878c784940ce70b160d375a3029",
+        "c064c427c76a8ecc06aff4cd1f01bd11",
+        "05595baec4f5d5bface2821c5f274bbc",
+        "ca175b7d83e145244c3c4368620834fb",
+        "f6c9c8b6036d2c186c8cc63349298b32",
+        "b8f82d7e1d68c44cd6c98dc0217528d8"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "shortlist_compare_open",
+      "problem_one_liner": "Users delay while comparing shortlisted products.",
+      "member_n": 10,
+      "rank_90d": 7,
+      "rank_12m": 7,
+      "volume_rank": 7,
+      "rank_score": 1.6991,
+      "rank_score_90d": 1.6991,
+      "rank_score_12m": 1.53875,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.0375,
+      "prevalence_unfiltered": 0.0003,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.6,
+      "actionability": 0.8,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+      "comparison_notes": "shortlist_compare_open outranks shortlist_compare_review_volume_trust for a buy within 30 days of save (recent 90 days): composite conversion score is higher on the 90-day view.",
+      "job_mix": {
+        "shortlist_compare": 1.0
+      },
+      "blocker_mix": {},
+      "source_mix": {
+        "play": 0.6,
+        "youtube": 0.3,
+        "app_store": 0.1
+      },
+      "jobs": [
+        "shortlist_compare"
+      ],
+      "blockers": [],
+      "sources": [
+        "play",
+        "youtube",
+        "app_store"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 1.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "recency_90d": 0.6,
+        "primary_12m": 0.4
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "Less common, but still shows up (3.8%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "comparing a few options before choosing"
+        ],
+        "blockers": []
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "34b5eeadebffdadb68ced89d21d18ce6",
+        "96a989b27c440f444c9fa0ec6a467763",
+        "2835af9cac363e4ae69d54266a78616e",
+        "525fd9b51b36b42db623645180233013",
+        "3a54865ed258c5c6cc7f26345886edb6",
+        "067fd59556a7630774b7bbbad4e803e9",
+        "f39ee26fbf29d199167b0a4a8b35ff81",
+        "73ffa282c869657a8321e57fb1090db9",
+        "3c16819d09e2688ef90a3c880ededd07",
+        "3fa60860ea45640796c0a6ee9ce48df0"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "shortlist_compare_review_volume_trust",
+      "problem_one_liner": "Users delay while comparing shortlisted products because reviews are too few or untrusted.",
+      "member_n": 8,
+      "rank_90d": 8,
+      "rank_12m": 8,
+      "volume_rank": 10,
+      "rank_score": 1.68635,
+      "rank_score_90d": 1.68635,
+      "rank_score_12m": 1.395,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.03,
+      "prevalence_unfiltered": 0.0002,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.25,
+      "actionability": 0.8,
+      "multi_source_support": 0.35,
+      "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+      "comparison_notes": "shortlist_compare_review_volume_trust outranks shortlist_compare_competitor_check for a buy within 30 days of save (recent 90 days): composite conversion score is higher on the 90-day view.",
+      "job_mix": {
+        "shortlist_compare": 1.0
+      },
+      "blocker_mix": {
+        "review_volume_trust": 1.0
+      },
+      "source_mix": {
+        "play": 1.0
+      },
+      "jobs": [
+        "shortlist_compare"
+      ],
+      "blockers": [
+        "review_volume_trust"
+      ],
+      "sources": [
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 1.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 0.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "primary_12m": 0.75,
+        "recency_90d": 0.25
+      },
+      "categories": [
+        "myntra_app"
+      ],
+      "single_source_warning": true,
+      "suggested_lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "Less common, but still shows up (3.0%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "comparing a few options before choosing"
+        ],
+        "blockers": [
+          "review volume or trust"
+        ]
+      },
+      "quotes": [
+        {
+          "doc_id": "2cb52baaa9cdc4185f77600b0ee6fd16",
+          "source": "play",
+          "observed_at": "2026-08-19T12:52:26",
+          "quote": "Myntra is honestly one of my favourite shopping apps! ❤️ The app is very easy to use. the collection is amazing & there are always great discounts & offers. I love how easy it is to search products compare options & check reviews before buying."
+        }
+      ],
+      "stuck_reason_mix": {
+        "social_validation_review": 1.0
+      },
+      "stuck_reasons": [
+        "Social validation / review-seeking"
+      ],
+      "member_doc_ids": [
+        "2cb52baaa9cdc4185f77600b0ee6fd16",
+        "80ca52c6423a467ba0fca956d221582b",
+        "7abb0649d96161e2853c36596d6d0e69",
+        "cc92200c5011660f2cecde31d5af4ffa",
+        "28d987f84bbe3e04fff2ca247d7a820d",
+        "1377f87876caad84076ffb369a212dc0",
+        "717ca64861a3e6f3605b463f8e72fbd7",
+        "0998b75d8f616aa0fe7742b5ca76a7f2"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "shortlist_compare_competitor_check",
+      "problem_one_liner": "Users delay while comparing shortlisted products because they are checking a competitor before committing.",
+      "member_n": 6,
+      "rank_90d": 9,
+      "rank_12m": 9,
+      "volume_rank": 11,
+      "rank_score": 1.5932,
+      "rank_score_90d": 1.5932,
+      "rank_score_12m": 1.26793,
+      "metric_relevance": 4.0,
+      "prevalence_relevant": 0.0225,
+      "prevalence_unfiltered": 0.0002,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.1667,
+      "actionability": 0.65,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+      "comparison_notes": "",
+      "job_mix": {
+        "shortlist_compare": 1.0
+      },
+      "blocker_mix": {
+        "competitor_check": 1.0
+      },
+      "source_mix": {
+        "youtube": 0.8333,
+        "play": 0.1667
+      },
+      "jobs": [
+        "shortlist_compare"
+      ],
+      "blockers": [
+        "competitor_check"
+      ],
+      "sources": [
+        "youtube",
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.8333,
+        "other": 0.1667
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "primary_12m": 0.8333,
+        "recency_90d": 0.1667
+      },
+      "categories": [
+        "myntra_haul",
+        "myntra_app"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Compare-saved-items across shortlisted SKUs",
+      "plain": {
+        "delay_strength": "This often makes people wait more than a month",
+        "blocks_purchase_ever": "This often keeps a saved item from becoming an order",
+        "how_common": "Less common, but still shows up (2.2%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "comparing a few options before choosing"
+        ],
+        "blockers": [
+          "checking a competitor"
+        ]
+      },
+      "quotes": [
+        {
+          "doc_id": "cb87d8c70799e5d00ea7c834d5afb90d",
+          "source": "play",
+          "observed_at": "2026-07-12T19:26:35",
+          "quote": "shortlisted few nikes to buy but I didn't order it because at that moment I was a bit busy with my work and I saw sale is for few days."
+        },
+        {
+          "doc_id": "ba9c7941fb04540b13ec8fa7ee85d7f1",
+          "source": "youtube",
+          "observed_at": "2026-05-25T11:21:31",
+          "quote": "My amazon wishlist \nLast wish will be \nMore 10 wishes ."
+        },
+        {
+          "doc_id": "1346eca3af0a29bc43e563d7164323d7",
+          "source": "youtube",
+          "observed_at": "2026-04-13T07:49:58",
+          "quote": "Meesho ki wishlist ( ₹[redacted-phone]. ₹10000\n3."
+        }
+      ],
+      "stuck_reason_mix": {
+        "comparison_shopping": 1.0
+      },
+      "stuck_reasons": [
+        "Comparison shopping"
+      ],
+      "member_doc_ids": [
+        "cb87d8c70799e5d00ea7c834d5afb90d",
+        "ba9c7941fb04540b13ec8fa7ee85d7f1",
+        "1346eca3af0a29bc43e563d7164323d7",
+        "c702bf7e4e02f41f274c55e7930122a8",
+        "7271c729d9381fb47bcf3785b688bd3c",
+        "2d46c718735fb60881e750bb8c7110e0"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "occasion_social_styling_occasion",
+      "problem_one_liner": "Users wait for occasion or social confidence before buying a saved look because they are unsure it will work for the occasion.",
+      "member_n": 8,
+      "rank_90d": 10,
+      "rank_12m": 11,
+      "volume_rank": 9,
+      "rank_score": 1.41135,
+      "rank_score_90d": 1.41135,
+      "rank_score_12m": 1.11993,
+      "metric_relevance": 3.0,
+      "prevalence_relevant": 0.03,
+      "prevalence_unfiltered": 0.0002,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.25,
+      "actionability": 0.675,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Shoppers wait for occasion or social confidence before buying a saved look, which can miss a 30-day clock.",
+      "comparison_notes": "",
+      "job_mix": {
+        "occasion_social": 0.875,
+        "intent_blocked": 0.125
+      },
+      "blocker_mix": {
+        "styling_occasion": 1.0
+      },
+      "source_mix": {
+        "play": 0.75,
+        "youtube": 0.25
+      },
+      "jobs": [
+        "occasion_social",
+        "intent_blocked"
+      ],
+      "blockers": [
+        "styling_occasion"
+      ],
+      "sources": [
+        "play",
+        "youtube"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.125,
+        "bookmark_or_impulse": 0.875,
+        "other": 0.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "primary_12m": 0.75,
+        "recency_90d": 0.25
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Social / occasion proof on saved items",
+      "plain": {
+        "delay_strength": "This sometimes makes people wait, along with other reasons",
+        "blocks_purchase_ever": "This sometimes blocks the buy, along with other reasons",
+        "how_common": "Less common, but still shows up (3.0%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "waiting for an occasion or a friend’s opinion",
+          "wanting the item but getting stuck"
+        ],
+        "blockers": [
+          "styling or occasion"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {
+        "styling_occasion_uncertainty": 1.0
+      },
+      "stuck_reasons": [
+        "Styling / occasion uncertainty"
+      ],
+      "member_doc_ids": [
+        "e48be276a52b5ceca53b840dfea71b93",
+        "e505899d386f111dab479bb8976d934f",
+        "61366d15dc24f1e4cdcf016aa469217b",
+        "50c7e26bd6c3745c080445e50dfdea17",
+        "bdc079e90f5cd431aa0561d820ea0bfa",
+        "a126750f502a40ac5674250ac67b7b79",
+        "a5346f5e74b50b824c0aa5c79b5c0912",
+        "cc68b4b04a7db77c66c861aa3a172fbb"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "bookmark_later_price",
+      "problem_one_liner": "Users save items as bookmarks instead of buying now because the current price feels too high.",
+      "member_n": 70,
+      "rank_90d": 11,
+      "rank_12m": 10,
+      "volume_rank": 1,
+      "rank_score": 1.33736,
+      "rank_score_90d": 1.33736,
+      "rank_score_12m": 1.16163,
+      "metric_relevance": 2.0,
+      "prevalence_relevant": 0.2622,
+      "prevalence_unfiltered": 0.0019,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.5286,
+      "actionability": 0.7,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "Saving is bookmarking, not near-term purchase intent, so 30-day conversion stays low.",
+      "comparison_notes": "",
+      "job_mix": {
+        "bookmark_later": 0.6,
+        "intent_blocked": 0.3714,
+        "impulse_park": 0.0143,
+        "wait_for_sale": 0.0143
+      },
+      "blocker_mix": {
+        "delivery_checkout_saved": 0.375,
+        "price": 0.375,
+        "competitor_check": 0.125,
+        "returns": 0.125
+      },
+      "source_mix": {
+        "play": 0.7,
+        "youtube": 0.3
+      },
+      "jobs": [
+        "bookmark_later",
+        "intent_blocked",
+        "impulse_park",
+        "wait_for_sale"
+      ],
+      "blockers": [
+        "delivery_checkout_saved",
+        "price",
+        "competitor_check",
+        "returns"
+      ],
+      "sources": [
+        "play",
+        "youtube"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.3714,
+        "bookmark_or_impulse": 0.6286,
+        "other": 0.0
+      },
+      "segment_slices": [
+        {
+          "clue": "category:myntra_app",
+          "n": 49,
+          "postponement_rate": 0.0
+        },
+        {
+          "clue": "platform:android",
+          "n": 49,
+          "postponement_rate": 0.0
+        }
+      ],
+      "corpus_layer_mix": {
+        "recency_90d": 0.5286,
+        "primary_12m": 0.4714
+      },
+      "categories": [
+        "myntra_app",
+        "myntra_haul"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Wishlist price-drop alerts / sale countdown on saved items",
+      "plain": {
+        "delay_strength": "People mention this a lot, but it doesn’t always delay buying",
+        "blocks_purchase_ever": "People mention this a lot, but it doesn’t always block the buy",
+        "how_common": "One of the most common reasons people mention (26.2%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [
+          "saving for later",
+          "wanting the item but getting stuck",
+          "saving something they liked in a photo",
+          "waiting for a sale or price drop"
+        ],
+        "blockers": [
+          "delivery or checkout of a saved item",
+          "price",
+          "checking a competitor",
+          "returns"
+        ]
+      },
+      "quotes": [
+        {
+          "doc_id": "3ca5413fa11efc029b56b301270419bb",
+          "source": "play",
+          "observed_at": "2026-05-25T15:54:26",
+          "quote": "Its smooth interface, wishlist feature, and easy return policy make online shopping simple and enjoyable."
+        }
+      ],
+      "stuck_reason_mix": {
+        "stock_availability": 0.3714,
+        "wishlist_ux_friction": 0.0429,
+        "bookmark_not_buying": 0.0143,
+        "trigger_to_purchase": 0.0143
+      },
+      "stuck_reasons": [
+        "Stock / availability friction",
+        "Wishlist UX / product friction",
+        "Bookmarking-not-buying behavior",
+        "Trigger-to-purchase moment"
+      ],
+      "member_doc_ids": [
+        "0cf6b83ecdfdc67c14c67755f5ace890",
+        "20dbe08236c238ed7ffb3833d3d887de",
+        "23281334e098b7f05f7ed24db85398f5",
+        "7a5974974160504f656f4ab46b8411db",
+        "4da34aae0cb07e2433faa72cff0f70d8",
+        "eaf42a2ea025feeb0eb56d2bb51decfe",
+        "92595d501ab714be90b77d8a656df74e",
+        "a2333ca0895ce867a78614876ef11672",
+        "42f1aa1e24e27edbf2446f062b2db94d",
+        "a95847fb2d93bf129825b9b3477170d0",
+        "583072843610be92f77fd5127a27d1ec",
+        "b0d83a7ff12c552c744765e725f17d5b",
+        "4f2670e92dd8c614249a2a01a171152c",
+        "c3fb60407e5c6caf028a8ef7ee041303",
+        "61114fa8928613a3f087c73e9abea429",
+        "577a99d00e92d94983611c1d121e85ff",
+        "ab0bb56cc19d846c4d5d17e34248d5bc",
+        "c495fc1e4b95e0a12eefa73d70c7c5cb",
+        "f714fff0494b75ea20bdd6b1dfcb21d7",
+        "cd9f0b2f67cc9c9f3ecc59dd4fa9f458",
+        "11daaf74644654543e6bc297a1d12dc9",
+        "dbf986f44d3ef7c7a598efda97d7bb3e",
+        "dcbf552853dfbd1e38ef133539341273",
+        "532155332f61985b24a82dfa84de03d0",
+        "76a9d21c91521dbb5387b50a3d06b133",
+        "1fabbba7664dfee65d0696d7a431385b",
+        "1e6b8df56a35e3c0ef4e2060ac777f5f",
+        "82d310a29202638e98d50f6d5c495060",
+        "8c0f401e8dd79dac33f851ea4823e2aa",
+        "843fabc160b1ca737fe759166a912835",
+        "a2e84ddc6ad2d9738fa6c76935745b8c",
+        "b8e4d144b98bc58592a34f39717248ee",
+        "47fe5c84a1950c525fcb9007fa3dcb61",
+        "e8867347a20be095aa950502f7d8e9b6",
+        "5b98af193a87e2f7f0a8b26b73a58c24",
+        "dc7b3ac7c9cf91838a6cf9863ea088b4",
+        "90981e58c50f9aa017d6a9ff3c47443d",
+        "969fe827fe1cc45d1b43c5ac999ebd1e",
+        "1ca28b8c98474a3e63869c1d42900507",
+        "0182e36a39f360300ada2436c80ab779",
+        "f51b1646daca48cb6a34e5de699c96e9",
+        "b85abb4cae79ab38a87772b55d8b235d",
+        "4f2d3af4ab03a4d6ba49ef84ffa00b28",
+        "f73d551f9add7e3e4ac9cb5bd10af246",
+        "f4f519e2e50f366f750266a8ae42f5a0",
+        "08bbf46224ab1120875c15ccf05eae6a",
+        "3a968443d9d24432a72fcadcaacbc3d4",
+        "bc07160d21554266a7c7f7002bc574bc",
+        "92736196420917e21f5750c2040aee22",
+        "e259efd43255e4125915938866338519",
+        "2110ac28acb2104993aa138193a38e53",
+        "f27f21ff17b03e7fe5ddc97410c2a79a",
+        "7b071030b2b939341acca66c55f66a17",
+        "7043803bd1af8aefe83d38cbc78d4c01",
+        "a30e0773ca5edf5f32b50454289c30e7",
+        "54aef7413538e888e675e308c97a2572",
+        "d2df1d196d9d8b238d7f179849e8516d",
+        "6ff876e5234a75afd42830af6a027aaa",
+        "a5a236fdc97407e19ad1dc1b00a07893",
+        "ea08aaa9bb65b7f7b6fcce0ee83a67ef",
+        "6b23923700cac94815688c57264d57b1",
+        "a97589c28b146a980de4a459840a3313",
+        "02641db616ea5d73a29d33b10e996428",
+        "c14fa2504ed8b9acc35591a200cef374",
+        "07be628d735d5cc3e9d992f1e6d2dbdf",
+        "4895d700111a4c73fab9e6e7afe62ae6",
+        "726cec0bd5e7548a0fd007e2745cff2d",
+        "f9e71a6745b54c1938388ef9d73540c2",
+        "3ca5413fa11efc029b56b301270419bb",
+        "8625e8aa04c8631301420c288df1b0f5"
+      ],
+      "rank_version": "rank_v1"
+    },
+    {
+      "opportunity_id": "unknown_fabric_quality",
+      "problem_one_liner": "Users hesitate on a saved item because fabric or quality feels uncertain before they commit to a saved item.",
+      "member_n": 26,
+      "rank_90d": 12,
+      "rank_12m": 12,
+      "volume_rank": 4,
+      "rank_score": 1.11358,
+      "rank_score_90d": 1.11358,
+      "rank_score_12m": 0.87183,
+      "metric_relevance": 2.0,
+      "prevalence_relevant": 0.0974,
+      "prevalence_unfiltered": 0.0007,
+      "postponement_rate": 0.0,
+      "recency_90d_share": 0.3462,
+      "actionability": 0.475,
+      "multi_source_support": 1.0,
+      "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+      "comparison_notes": "",
+      "job_mix": {
+        "unknown": 1.0
+      },
+      "blocker_mix": {
+        "fabric_quality": 0.6667,
+        "returns": 0.3333
+      },
+      "source_mix": {
+        "youtube": 0.8077,
+        "play": 0.1923
+      },
+      "jobs": [
+        "unknown"
+      ],
+      "blockers": [
+        "fabric_quality",
+        "returns"
+      ],
+      "sources": [
+        "youtube",
+        "play"
+      ],
+      "intent_vs_bookmark": {
+        "intent_blocked": 0.0,
+        "bookmark_or_impulse": 0.0,
+        "other": 1.0
+      },
+      "segment_slices": [],
+      "corpus_layer_mix": {
+        "primary_12m": 0.6538,
+        "recency_90d": 0.3462
+      },
+      "categories": [
+        "myntra_haul",
+        "myntra_app"
+      ],
+      "single_source_warning": false,
+      "suggested_lever": "Hypothesis TBD — inspect quotes before committing a 30-day test",
+      "plain": {
+        "delay_strength": "People mention this a lot, but it doesn’t always delay buying",
+        "blocks_purchase_ever": "People mention this a lot, but it doesn’t always block the buy",
+        "how_common": "A fairly common reason (9.7%)",
+        "waiting_past_30d": "Few comments clearly say they wait more than a month (0.0%)",
+        "jobs": [],
+        "blockers": [
+          "fabric or quality",
+          "returns"
+        ]
+      },
+      "quotes": [],
+      "stuck_reason_mix": {},
+      "stuck_reasons": [],
+      "member_doc_ids": [
+        "69c4f0c1fba665bd6e8d13f7adc6c810",
+        "e8d4db502fdf2daaacf0f4ff42eef995",
+        "69ff83d71e8ea3fc4ad4bdcfc3e919f6",
+        "5d1d9108de42e764be0bd1689dbc5a50",
+        "3c4512970875a6f256e14a570f1dec45",
+        "d55d2721f0d01f77598316f62e9e8000",
+        "1b7c5b4fb2dcdcf6f4a271193aa0d209",
+        "f95e65477721495a01b0a92a11a6c43b",
+        "9f2e0aff40e1d74183d40784d0010e63",
+        "5396516ddee67ed6c0f7993fcf648bae",
+        "db89b9e0d4df40dd0f187c21d7419fa4",
+        "6b8435b7d5ad0507cc8aea75b5441a2d",
+        "20b23db7b27ce862b9a853000d99e8ef",
+        "52a0c3827f412e894dff9262ed79f48a",
+        "6ba9964028de6b7ecaf3f7ef1f841ab2",
+        "29414d7c018f3e43be035ef28984d169",
+        "f7b3d9e6109bbda469f455bfd3857153",
+        "9d86c8ebfc53514ab8afdb9be81be0ea",
+        "cc71ccdf000920b4cca3934e4bacb04b",
+        "ae931372508f3bf98c62f0f5507fafaa",
+        "c86708bcfe3004ca60b74bf36d8aa3a0",
+        "a7685bf9ed38eb131499fbe7d5bdaa19",
+        "f5c33c1b511b5dd20756c0c60cf6a0f9",
+        "23c859f1d636010cfe1efb5729836027",
+        "16bf60ca76aff5eec0f84f1bbe7464c8",
+        "65001094aaa748034d6831e2920323ac"
+      ],
+      "rank_version": "rank_v1"
+    }
+  ]
+}

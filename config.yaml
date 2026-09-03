@@ -1,0 +1,227 @@
+# Pipeline config. Date windows are analysis clocks on observed_at;
+# collected_at is ingest time only (see review_engine.windows).
+#
+# P1 credentials (optional, env): REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET,
+# REDDIT_USER_AGENT, YOUTUBE_API_KEY.
+# If HTTPS fails with CERTIFICATE_VERIFY_FAILED, set REQUESTS_CA_BUNDLE
+# or REVIEW_ENGINE_SSL_VERIFY=false (local only).
+
+as_of: null  # ISO date (YYYY-MM-DD). null = today (UTC).
+
+storage:
+  backend: sqlite  # local MVP; switch to postgres only if multi-user
+  path: data/engine.db
+
+windows:
+  primary_months: 12
+  recency_days: 90
+  trend_start_months: 24
+  trend_end_months: 18
+  pdp_months: 12
+
+models:
+  runtime: ollama
+  ollama_host: http://127.0.0.1:11434
+  generate: qwen2.5:7b
+  generate_upgrade: qwen2.5:14b
+  generate_small: llama3.2:3b
+  embed: nomic-embed-text
+
+filter:
+  version: filter_v9
+  relevance_threshold: 0.5
+  borderline_threshold: 0.35
+  use_llm: true
+  skip_if_same_version: true
+  goldset_path: eval/goldset/relevance.jsonl
+  sample_path: data/filter_audit_sample.json
+
+extract:
+  version: extract_v7
+  use_llm: true
+  skip_if_same_version: true
+  goldset_path: eval/goldset/jobs_blockers.jsonl
+  export_path: data/claims_export.jsonl
+
+cluster:
+  version: cluster_v9
+  min_opportunities: 5
+  max_opportunities: 12
+  min_cluster_size: 2
+  merge_cosine: 0.88
+  use_embed: true
+  use_llm: true
+  skip_if_same_version: true
+  export_path: data/opportunities_unranked.json
+  name_overrides_path: data/opportunity_name_overrides.json
+
+rank:
+  version: rank_v1
+  min_segment_n: 30
+  top_n_compare: 8
+  export_path: data/opportunities_ranked.json
+  # Composite is documented in review_engine/rank/scoring.py (90-day default view).
+  w1_metric_relevance: 1.0
+  w2_postponement_rate: 0.8
+  w3_prevalence_relevant: 0.5
+  w4_recency_boost: 0.4
+  w5_actionability: 0.6
+  w6_loud_but_weak_penalty: 0.7
+
+present:
+  version: present_v1
+  export_path: data/opportunities.json
+  quotes_dir: data/quotes
+  report_dir: data/reports
+  web_data_dir: web/public/data
+  audit_path: data/audit_snippets.jsonl
+  top_n_onepagers: 8
+  # ranked_path defaults to rank.export_path
+
+sources:
+  stub:
+    enabled: false
+    tier: phase0
+    rate_limit_rps: 10
+    daily_quota: 100
+  play:
+    enabled: true
+    tier: P0
+    rate_limit_rps: 0.5
+    daily_quota: 15000
+    app_id: com.myntra.android
+    country: in
+    langs: [en, hi]
+    page_size: 200
+  app_store:
+    enabled: true
+    tier: P0
+    rate_limit_rps: 0.5
+    daily_quota: 2000
+    app_id: "907394059"
+    country: in
+    max_pages: 50
+  reddit:
+    enabled: true
+    tier: P1
+    rate_limit_rps: 0.5
+    daily_quota: 2500
+    fetch_post_comments: true
+    queries:
+      - myntra wishlist
+      - myntra "saved for later"
+      - myntra wishlist never buy
+      - myntra wishlist sale
+      - myntra wishlist price drop
+      - myntra (sale OR EORS OR "end of reason")
+      - "Myntra or Ajio"
+      - myntra vs flipkart wishlist
+      - myntra (size OR fit OR "size chart") wishlist
+      - myntra haul wishlist
+      - myntra cart vs wishlist
+      - myntra bookmark items
+      - why myntra wishlist
+      - myntra wishlist tips
+      - myntra waiting for sale
+    comment_queries:
+      - myntra wishlist
+      - wishlist myntra
+      - saved for later myntra
+      - myntra never buy from wishlist
+      - myntra price increase wishlist
+      - myntra wishlist graveyard
+      - myntra EORS wishlist
+      - myntra size chart wishlist
+      - myntra vs ajio
+      - myntra haul saved
+    subreddits:
+      - IndianFashionAddicts
+      - IndianStreetFashion
+      - india
+      - mumbai
+      - delhi
+      - bangalore
+      - twoxindia
+      - AskIndia
+    subreddit_query: myntra
+    subreddit_comment_query: myntra wishlist
+  youtube:
+    enabled: true
+    tier: P1
+    rate_limit_rps: 0.2
+    daily_quota: 8000
+    search_orders:
+      - relevance
+      - date
+      - viewCount
+    max_results_per_query: 50
+    max_search_calls: 100
+    search_queries:
+      - Myntra wishlist
+      - Myntra saved for later
+      - Myntra wishlist haul
+      - Myntra wishlist tips
+      - Myntra how I use wishlist
+      - Myntra wishlist to cart
+      - Myntra wishlist sale strategy
+      - Myntra price drop wishlist
+      - Myntra saved items review
+      - Myntra closet wishlist
+      - Myntra haul wishlist
+      - Myntra wishlist never buy
+      - Myntra wishlist graveyard
+      - Myntra cart vs wishlist
+      - Myntra bookmark later
+      - Myntra waiting for sale wishlist
+      - Myntra EORS wishlist
+      - Myntra haul
+      - Myntra sale haul
+      - Myntra honest review
+      - Myntra EORS
+      - Myntra vs Ajio
+      - Myntra vs Flipkart shopping
+      - myntra wishlist kya hai
+      - myntra shopping wishlist India
+      - myntra wishlist review hindi
+      - myntra saved items problem
+      - why not buy from wishlist myntra
+      - myntra wishlist notification
+      - myntra wishlist price alert
+      - myntra size chart confusing wishlist
+      - myntra afraid won't fit saved
+      - myntra waiting for sale wishlist
+      - myntra not sure how to style wishlist
+      - myntra reviews before buying wishlist
+      - myntra photos vs real product wishlist
+      - myntra out of stock wishlist
+      - myntra wishlist graveyard never buy
+      - myntra finally bought wishlist
+      - myntra wishlist filter problem
+    max_videos: 280
+    max_comments_per_video: 200
+    region: IN
+  pdp:
+    enabled: false
+    tier: P2
+    rate_limit_rps: 0.3
+    daily_quota: 400
+  quora:
+    enabled: false
+    tier: P3
+    rate_limit_rps: 0.2
+    daily_quota: 100
+  mouthshut:
+    enabled: false
+    tier: P3
+    rate_limit_rps: 0.2
+    daily_quota: 100
+  trustpilot:
+    enabled: false
+    tier: P3
+    rate_limit_rps: 0.2
+    daily_quota: 100
+  competitor_store:
+    enabled: false
+    tier: P3
+    rate_limit_rps: 0.2
+    daily_quota: 200

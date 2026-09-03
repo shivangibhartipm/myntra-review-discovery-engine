@@ -1,0 +1,593 @@
+[
+  {
+    "opportunity_id": "unknown_price",
+    "problem_one_liner": "Users hesitate on a saved item because the current price feels too high.",
+    "member_n": 69,
+    "prevalence_relevant": 0.2584,
+    "prevalence_unfiltered": 0.0019,
+    "recency_90d_share": 0.7391,
+    "postponement_rate": 1.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 1.0
+    },
+    "multi_source_support": 0.35,
+    "metric_relevance": 4.0,
+    "actionability": 0.625,
+    "rank_score": 2.5374,
+    "rank_score_90d": 2.5374,
+    "rank_score_12m": 2.39984,
+    "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "price": 1.0
+    },
+    "source_mix": {
+      "play": 1.0
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [
+      {
+        "clue": "category:myntra_app",
+        "n": 69,
+        "postponement_rate": 1.0
+      },
+      {
+        "clue": "platform:android",
+        "n": 69,
+        "postponement_rate": 1.0
+      }
+    ],
+    "comparison_notes": "unknown_price outranks bookmark_later_photo_mismatch on the 90-day conversion view: composite rank_score is higher on the 90-day view.",
+    "rank_90d": 1,
+    "rank_12m": 2,
+    "volume_rank": 2
+  },
+  {
+    "opportunity_id": "bookmark_later_photo_mismatch",
+    "problem_one_liner": "Users save items as bookmarks instead of buying now because the product looks different than photos or haul videos.",
+    "member_n": 17,
+    "prevalence_relevant": 0.0637,
+    "prevalence_unfiltered": 0.0005,
+    "recency_90d_share": 0.7647,
+    "postponement_rate": 1.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 1.0,
+      "other": 0.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 4.0,
+    "actionability": 0.775,
+    "rank_score": 2.5064,
+    "rank_score_90d": 2.5064,
+    "rank_score_12m": 2.40273,
+    "delay_mechanism": "Saving is bookmarking, not near-term purchase intent, so 30-day conversion stays low.",
+    "job_mix": {
+      "bookmark_later": 1.0
+    },
+    "blocker_mix": {
+      "photo_mismatch": 1.0
+    },
+    "source_mix": {
+      "play": 0.8235,
+      "youtube": 0.1176,
+      "stub": 0.0588
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "bookmark_later_photo_mismatch outranks wait_for_sale_sale_timing on the 90-day conversion view: lower metric_relevance (4 vs 5); higher postponement_rate (1.00 vs 0.44); beats wait_for_sale_sale_timing despite lower unfiltered share (0.001 vs 0.001).",
+    "rank_90d": 2,
+    "rank_12m": 1,
+    "volume_rank": 5
+  },
+  {
+    "opportunity_id": "wait_for_sale_sale_timing",
+    "problem_one_liner": "Users wait for a sale or price drop before buying saved items because they are waiting for sale timing (for example EORS).",
+    "member_n": 27,
+    "prevalence_relevant": 0.1011,
+    "prevalence_unfiltered": 0.0007,
+    "recency_90d_share": 0.6667,
+    "postponement_rate": 0.4444,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 1.0,
+      "other": 0.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 5.0,
+    "actionability": 0.85,
+    "rank_score": 2.3673,
+    "rank_score_90d": 2.3673,
+    "rank_score_12m": 2.18275,
+    "delay_mechanism": "Users park saved items until a sale window (EORS / price drop), so purchase slips past 30 days by design.",
+    "job_mix": {
+      "wait_for_sale": 1.0
+    },
+    "blocker_mix": {
+      "sale_timing": 1.0
+    },
+    "source_mix": {
+      "play": 0.8889,
+      "youtube": 0.0741,
+      "stub": 0.037
+    },
+    "rank_version": "rank_v1",
+    "quotes": [
+      {
+        "doc_id": "27fbf5014ba04849813db8c14c561fc9",
+        "source": "play",
+        "observed_at": "2026-08-06T13:30:55",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "1e714fed995ceb371d6cd1d2fa490f6d",
+        "source": "youtube",
+        "observed_at": "2026-07-21T15:23:30",
+        "quote": "Wishlist"
+      },
+      {
+        "doc_id": "3a0bda1e7b90d339f01feb413b35cb4f",
+        "source": "play",
+        "observed_at": "2026-08-05T10:46:38",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "5e1ab14b786dddb115e9f90101885f55",
+        "source": "play",
+        "observed_at": "2026-05-10T06:35:10",
+        "quote": "wishlist"
+      }
+    ],
+    "segment_slices": [],
+    "comparison_notes": "wait_for_sale_sale_timing outranks intent_blocked_fit on the 90-day conversion view: higher metric_relevance (5 vs 4).",
+    "rank_90d": 3,
+    "rank_12m": 3,
+    "volume_rank": 3
+  },
+  {
+    "opportunity_id": "intent_blocked_fit",
+    "problem_one_liner": "Users want the item but a concrete blocker stops checkout because they are unsure about size or fit before ordering a saved item.",
+    "member_n": 9,
+    "prevalence_relevant": 0.0337,
+    "prevalence_unfiltered": 0.0002,
+    "recency_90d_share": 0.7778,
+    "postponement_rate": 0.4444,
+    "intent_vs_bookmark": {
+      "intent_blocked": 1.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 0.0
+    },
+    "multi_source_support": 0.7,
+    "metric_relevance": 4.0,
+    "actionability": 0.9,
+    "rank_score": 2.10518,
+    "rank_score_90d": 2.10518,
+    "rank_score_12m": 2.02349,
+    "delay_mechanism": "Fit uncertainty stops checkout of an otherwise intended saved item within 30 days.",
+    "job_mix": {
+      "intent_blocked": 0.8889,
+      "shortlist_compare": 0.1111
+    },
+    "blocker_mix": {
+      "fit": 0.5,
+      "fabric_quality": 0.125,
+      "photo_mismatch": 0.125,
+      "price": 0.125,
+      "size_chart": 0.125
+    },
+    "source_mix": {
+      "play": 0.8889,
+      "stub": 0.1111
+    },
+    "rank_version": "rank_v1",
+    "quotes": [
+      {
+        "doc_id": "fdc1760f03f604398f7b38157cd85be1",
+        "source": "stub",
+        "observed_at": "2026-07-15T12:51:03",
+        "quote": "Confused between"
+      }
+    ],
+    "segment_slices": [],
+    "comparison_notes": "intent_blocked_fit outranks unknown_competitor_check on the 90-day conversion view: higher metric_relevance (4 vs 3); lower postponement_rate (0.44 vs 0.67).",
+    "rank_90d": 4,
+    "rank_12m": 4,
+    "volume_rank": 8
+  },
+  {
+    "opportunity_id": "unknown_competitor_check",
+    "problem_one_liner": "Users hesitate on a saved item because they are checking a competitor before committing.",
+    "member_n": 3,
+    "prevalence_relevant": 0.0112,
+    "prevalence_unfiltered": 0.0001,
+    "recency_90d_share": 0.6667,
+    "postponement_rate": 0.6667,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 1.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 3.0,
+    "actionability": 0.45,
+    "rank_score": 2.07635,
+    "rank_score_90d": 2.07635,
+    "rank_score_12m": 1.67564,
+    "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "competitor_check": 1.0
+    },
+    "source_mix": {
+      "youtube": 0.6667,
+      "play": 0.3333
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "unknown_competitor_check outranks wait_for_sale_price on the 90-day conversion view: lower metric_relevance (3 vs 5); higher postponement_rate (0.67 vs 0.00); beats wait_for_sale_price despite lower unfiltered share (0.000 vs 0.000).",
+    "rank_90d": 5,
+    "rank_12m": 6,
+    "volume_rank": 12
+  },
+  {
+    "opportunity_id": "wait_for_sale_price",
+    "problem_one_liner": "Users wait for a sale or price drop before buying saved items because the current price feels too high.",
+    "member_n": 14,
+    "prevalence_relevant": 0.0524,
+    "prevalence_unfiltered": 0.0004,
+    "recency_90d_share": 0.6429,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.0714,
+      "other": 0.9286
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 5.0,
+    "actionability": 0.85,
+    "rank_score": 1.93865,
+    "rank_score_90d": 1.93865,
+    "rank_score_12m": 1.79336,
+    "delay_mechanism": "Users wait for a cheaper price on a saved item, stretching the add-to-buy clock beyond 30 days.",
+    "job_mix": {
+      "wait_for_sale": 1.0
+    },
+    "blocker_mix": {
+      "price": 0.8571,
+      "returns": 0.1429
+    },
+    "source_mix": {
+      "play": 0.9286,
+      "youtube": 0.0714
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "wait_for_sale_price outranks shortlist_compare_open on the 90-day conversion view: higher metric_relevance (5 vs 4).",
+    "rank_90d": 6,
+    "rank_12m": 5,
+    "volume_rank": 6
+  },
+  {
+    "opportunity_id": "shortlist_compare_open",
+    "problem_one_liner": "Users delay while comparing shortlisted products.",
+    "member_n": 10,
+    "prevalence_relevant": 0.0375,
+    "prevalence_unfiltered": 0.0003,
+    "recency_90d_share": 0.6,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 1.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 4.0,
+    "actionability": 0.8,
+    "rank_score": 1.6991,
+    "rank_score_90d": 1.6991,
+    "rank_score_12m": 1.53875,
+    "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {},
+    "source_mix": {
+      "play": 0.6,
+      "youtube": 0.3,
+      "app_store": 0.1
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "shortlist_compare_open outranks shortlist_compare_review_volume_trust on the 90-day conversion view: composite rank_score is higher on the 90-day view.",
+    "rank_90d": 7,
+    "rank_12m": 7,
+    "volume_rank": 7
+  },
+  {
+    "opportunity_id": "shortlist_compare_review_volume_trust",
+    "problem_one_liner": "Users delay while comparing shortlisted products because reviews are too few or untrusted.",
+    "member_n": 8,
+    "prevalence_relevant": 0.03,
+    "prevalence_unfiltered": 0.0002,
+    "recency_90d_share": 0.25,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 1.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 0.0
+    },
+    "multi_source_support": 0.35,
+    "metric_relevance": 4.0,
+    "actionability": 0.8,
+    "rank_score": 1.68635,
+    "rank_score_90d": 1.68635,
+    "rank_score_12m": 1.395,
+    "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {
+      "review_volume_trust": 1.0
+    },
+    "source_mix": {
+      "play": 1.0
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "shortlist_compare_review_volume_trust outranks shortlist_compare_competitor_check on the 90-day conversion view: composite rank_score is higher on the 90-day view.",
+    "rank_90d": 8,
+    "rank_12m": 8,
+    "volume_rank": 10
+  },
+  {
+    "opportunity_id": "shortlist_compare_competitor_check",
+    "problem_one_liner": "Users delay while comparing shortlisted products because they are checking a competitor before committing.",
+    "member_n": 6,
+    "prevalence_relevant": 0.0225,
+    "prevalence_unfiltered": 0.0002,
+    "recency_90d_share": 0.1667,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.8333,
+      "other": 0.1667
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 4.0,
+    "actionability": 0.65,
+    "rank_score": 1.5932,
+    "rank_score_90d": 1.5932,
+    "rank_score_12m": 1.26793,
+    "delay_mechanism": "Choice paralysis across shortlisted products postpones the buy until a comparison is resolved.",
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {
+      "competitor_check": 1.0
+    },
+    "source_mix": {
+      "youtube": 0.8333,
+      "play": 0.1667
+    },
+    "rank_version": "rank_v1",
+    "quotes": [
+      {
+        "doc_id": "cb87d8c70799e5d00ea7c834d5afb90d",
+        "source": "play",
+        "observed_at": "2026-07-12T19:26:35",
+        "quote": "shortlist"
+      },
+      {
+        "doc_id": "ba9c7941fb04540b13ec8fa7ee85d7f1",
+        "source": "youtube",
+        "observed_at": "2026-05-25T11:21:31",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "7271c729d9381fb47bcf3785b688bd3c",
+        "source": "youtube",
+        "observed_at": "2026-05-24T02:37:41",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "2d46c718735fb60881e750bb8c7110e0",
+        "source": "youtube",
+        "observed_at": "2026-04-14T07:12:48",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "1346eca3af0a29bc43e563d7164323d7",
+        "source": "youtube",
+        "observed_at": "2026-04-13T07:49:58",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "c702bf7e4e02f41f274c55e7930122a8",
+        "source": "youtube",
+        "observed_at": "2026-03-09T10:14:29",
+        "quote": "wishlist"
+      }
+    ],
+    "segment_slices": [],
+    "comparison_notes": "",
+    "rank_90d": 9,
+    "rank_12m": 9,
+    "volume_rank": 11
+  },
+  {
+    "opportunity_id": "occasion_social_styling_occasion",
+    "problem_one_liner": "Users wait for occasion or social confidence before buying a saved look because they are unsure it will work for the occasion.",
+    "member_n": 8,
+    "prevalence_relevant": 0.03,
+    "prevalence_unfiltered": 0.0002,
+    "recency_90d_share": 0.25,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.125,
+      "bookmark_or_impulse": 0.875,
+      "other": 0.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 3.0,
+    "actionability": 0.675,
+    "rank_score": 1.41135,
+    "rank_score_90d": 1.41135,
+    "rank_score_12m": 1.11993,
+    "delay_mechanism": "Shoppers wait for occasion or social confidence before buying a saved look, which can miss a 30-day clock.",
+    "job_mix": {
+      "occasion_social": 0.875,
+      "intent_blocked": 0.125
+    },
+    "blocker_mix": {
+      "styling_occasion": 1.0
+    },
+    "source_mix": {
+      "play": 0.75,
+      "youtube": 0.25
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "",
+    "rank_90d": 10,
+    "rank_12m": 11,
+    "volume_rank": 9
+  },
+  {
+    "opportunity_id": "bookmark_later_price",
+    "problem_one_liner": "Users save items as bookmarks instead of buying now because the current price feels too high.",
+    "member_n": 70,
+    "prevalence_relevant": 0.2622,
+    "prevalence_unfiltered": 0.0019,
+    "recency_90d_share": 0.5286,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.3714,
+      "bookmark_or_impulse": 0.6286,
+      "other": 0.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 2.0,
+    "actionability": 0.7,
+    "rank_score": 1.33736,
+    "rank_score_90d": 1.33736,
+    "rank_score_12m": 1.16163,
+    "delay_mechanism": "Saving is bookmarking, not near-term purchase intent, so 30-day conversion stays low.",
+    "job_mix": {
+      "bookmark_later": 0.6,
+      "intent_blocked": 0.3714,
+      "impulse_park": 0.0143,
+      "wait_for_sale": 0.0143
+    },
+    "blocker_mix": {
+      "delivery_checkout_saved": 0.375,
+      "price": 0.375,
+      "competitor_check": 0.125,
+      "returns": 0.125
+    },
+    "source_mix": {
+      "play": 0.7,
+      "youtube": 0.3
+    },
+    "rank_version": "rank_v1",
+    "quotes": [
+      {
+        "doc_id": "20dbe08236c238ed7ffb3833d3d887de",
+        "source": "play",
+        "observed_at": "2026-08-21T15:23:37",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "0cf6b83ecdfdc67c14c67755f5ace890",
+        "source": "play",
+        "observed_at": "2026-08-14T09:08:56",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "7a5974974160504f656f4ab46b8411db",
+        "source": "play",
+        "observed_at": "2026-06-25T12:13:38",
+        "quote": "wish list"
+      },
+      {
+        "doc_id": "23281334e098b7f05f7ed24db85398f5",
+        "source": "play",
+        "observed_at": "2026-06-25T02:58:31",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "3ca5413fa11efc029b56b301270419bb",
+        "source": "play",
+        "observed_at": "2026-05-25T15:54:26",
+        "quote": "wishlist"
+      }
+    ],
+    "segment_slices": [
+      {
+        "clue": "category:myntra_app",
+        "n": 49,
+        "postponement_rate": 0.0
+      },
+      {
+        "clue": "platform:android",
+        "n": 49,
+        "postponement_rate": 0.0
+      }
+    ],
+    "comparison_notes": "",
+    "rank_90d": 11,
+    "rank_12m": 10,
+    "volume_rank": 1
+  },
+  {
+    "opportunity_id": "unknown_fabric_quality",
+    "problem_one_liner": "Users hesitate on a saved item because fabric or quality feels uncertain before they commit to a saved item.",
+    "member_n": 26,
+    "prevalence_relevant": 0.0974,
+    "prevalence_unfiltered": 0.0007,
+    "recency_90d_share": 0.3462,
+    "postponement_rate": 0.0,
+    "intent_vs_bookmark": {
+      "intent_blocked": 0.0,
+      "bookmark_or_impulse": 0.0,
+      "other": 1.0
+    },
+    "multi_source_support": 1.0,
+    "metric_relevance": 2.0,
+    "actionability": 0.475,
+    "rank_score": 1.11358,
+    "rank_score_90d": 1.11358,
+    "rank_score_12m": 0.87183,
+    "delay_mechanism": "This theme may delay a saved-item purchase, but the 30-day mechanism is weaker or mixed; treat volume as a loudness diagnostic rather than a conversion lever.",
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "fabric_quality": 0.6667,
+      "returns": 0.3333
+    },
+    "source_mix": {
+      "youtube": 0.8077,
+      "play": 0.1923
+    },
+    "rank_version": "rank_v1",
+    "quotes": [],
+    "segment_slices": [],
+    "comparison_notes": "",
+    "rank_90d": 12,
+    "rank_12m": 12,
+    "volume_rank": 4
+  }
+]

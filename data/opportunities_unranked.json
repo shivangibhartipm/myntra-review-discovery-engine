@@ -1,0 +1,654 @@
+[
+  {
+    "opportunity_id": "bookmark_later_price",
+    "problem_one_liner": "Users save items as bookmarks instead of buying now because the current price feels too high.",
+    "member_doc_ids": [
+      "0cf6b83ecdfdc67c14c67755f5ace890",
+      "20dbe08236c238ed7ffb3833d3d887de",
+      "23281334e098b7f05f7ed24db85398f5",
+      "7a5974974160504f656f4ab46b8411db",
+      "4da34aae0cb07e2433faa72cff0f70d8",
+      "eaf42a2ea025feeb0eb56d2bb51decfe",
+      "92595d501ab714be90b77d8a656df74e",
+      "a2333ca0895ce867a78614876ef11672",
+      "42f1aa1e24e27edbf2446f062b2db94d",
+      "a95847fb2d93bf129825b9b3477170d0",
+      "583072843610be92f77fd5127a27d1ec",
+      "b0d83a7ff12c552c744765e725f17d5b",
+      "4f2670e92dd8c614249a2a01a171152c",
+      "c3fb60407e5c6caf028a8ef7ee041303",
+      "61114fa8928613a3f087c73e9abea429",
+      "577a99d00e92d94983611c1d121e85ff",
+      "ab0bb56cc19d846c4d5d17e34248d5bc",
+      "c495fc1e4b95e0a12eefa73d70c7c5cb",
+      "f714fff0494b75ea20bdd6b1dfcb21d7",
+      "cd9f0b2f67cc9c9f3ecc59dd4fa9f458",
+      "11daaf74644654543e6bc297a1d12dc9",
+      "dbf986f44d3ef7c7a598efda97d7bb3e",
+      "dcbf552853dfbd1e38ef133539341273",
+      "532155332f61985b24a82dfa84de03d0",
+      "76a9d21c91521dbb5387b50a3d06b133",
+      "1fabbba7664dfee65d0696d7a431385b",
+      "1e6b8df56a35e3c0ef4e2060ac777f5f",
+      "82d310a29202638e98d50f6d5c495060",
+      "8c0f401e8dd79dac33f851ea4823e2aa",
+      "843fabc160b1ca737fe759166a912835",
+      "a2e84ddc6ad2d9738fa6c76935745b8c",
+      "b8e4d144b98bc58592a34f39717248ee",
+      "47fe5c84a1950c525fcb9007fa3dcb61",
+      "e8867347a20be095aa950502f7d8e9b6",
+      "5b98af193a87e2f7f0a8b26b73a58c24",
+      "dc7b3ac7c9cf91838a6cf9863ea088b4",
+      "90981e58c50f9aa017d6a9ff3c47443d",
+      "969fe827fe1cc45d1b43c5ac999ebd1e",
+      "1ca28b8c98474a3e63869c1d42900507",
+      "0182e36a39f360300ada2436c80ab779",
+      "f51b1646daca48cb6a34e5de699c96e9",
+      "b85abb4cae79ab38a87772b55d8b235d",
+      "4f2d3af4ab03a4d6ba49ef84ffa00b28",
+      "f73d551f9add7e3e4ac9cb5bd10af246",
+      "f4f519e2e50f366f750266a8ae42f5a0",
+      "08bbf46224ab1120875c15ccf05eae6a",
+      "3a968443d9d24432a72fcadcaacbc3d4",
+      "bc07160d21554266a7c7f7002bc574bc",
+      "92736196420917e21f5750c2040aee22",
+      "e259efd43255e4125915938866338519",
+      "2110ac28acb2104993aa138193a38e53",
+      "f27f21ff17b03e7fe5ddc97410c2a79a",
+      "7b071030b2b939341acca66c55f66a17",
+      "7043803bd1af8aefe83d38cbc78d4c01",
+      "a30e0773ca5edf5f32b50454289c30e7",
+      "54aef7413538e888e675e308c97a2572",
+      "d2df1d196d9d8b238d7f179849e8516d",
+      "6ff876e5234a75afd42830af6a027aaa",
+      "a5a236fdc97407e19ad1dc1b00a07893",
+      "ea08aaa9bb65b7f7b6fcce0ee83a67ef",
+      "6b23923700cac94815688c57264d57b1",
+      "a97589c28b146a980de4a459840a3313",
+      "02641db616ea5d73a29d33b10e996428",
+      "c14fa2504ed8b9acc35591a200cef374",
+      "07be628d735d5cc3e9d992f1e6d2dbdf",
+      "4895d700111a4c73fab9e6e7afe62ae6",
+      "726cec0bd5e7548a0fd007e2745cff2d",
+      "f9e71a6745b54c1938388ef9d73540c2",
+      "3ca5413fa11efc029b56b301270419bb",
+      "8625e8aa04c8631301420c288df1b0f5"
+    ],
+    "representative_doc_ids": [
+      "20dbe08236c238ed7ffb3833d3d887de",
+      "0cf6b83ecdfdc67c14c67755f5ace890",
+      "7a5974974160504f656f4ab46b8411db",
+      "23281334e098b7f05f7ed24db85398f5",
+      "3ca5413fa11efc029b56b301270419bb"
+    ],
+    "job_mix": {
+      "bookmark_later": 0.6,
+      "intent_blocked": 0.3714,
+      "impulse_park": 0.0143,
+      "wait_for_sale": 0.0143
+    },
+    "blocker_mix": {
+      "delivery_checkout_saved": 0.375,
+      "price": 0.375,
+      "competitor_check": 0.125,
+      "returns": 0.125
+    },
+    "source_mix": {
+      "play": 0.7,
+      "youtube": 0.3
+    },
+    "single_source_warning": false,
+    "quotes": [
+      {
+        "doc_id": "20dbe08236c238ed7ffb3833d3d887de",
+        "source": "play",
+        "observed_at": "2026-08-21T15:23:37",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "0cf6b83ecdfdc67c14c67755f5ace890",
+        "source": "play",
+        "observed_at": "2026-08-14T09:08:56",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "7a5974974160504f656f4ab46b8411db",
+        "source": "play",
+        "observed_at": "2026-06-25T12:13:38",
+        "quote": "wish list"
+      },
+      {
+        "doc_id": "23281334e098b7f05f7ed24db85398f5",
+        "source": "play",
+        "observed_at": "2026-06-25T02:58:31",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "3ca5413fa11efc029b56b301270419bb",
+        "source": "play",
+        "observed_at": "2026-05-25T15:54:26",
+        "quote": "wishlist"
+      }
+    ],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "unknown_price",
+    "problem_one_liner": "Users hesitate on a saved item because the current price feels too high.",
+    "member_doc_ids": [
+      "8ff19972f23f79ceb6b9efa4b8a0126d",
+      "47295030c4f6b9ffc9886bf69a9fa3fe",
+      "1c55978a2c77da84f971c0f7f725de85",
+      "1a082f7c3ea89dd52821e2c6fa87eb7f",
+      "2edafac994c7183dcf712ed8e11b4c13",
+      "00f5a6bde3321925e47b9d2c4d9d59c4",
+      "a2eab421feecdb1d335d883a610413cd",
+      "8703cfa55087ba1e9739e248ea55bb81",
+      "cffccf2f066f99a826483d4e5e288d47",
+      "42999dc9b09d7638a7b4136448c3d0d6",
+      "9782327378330787eee084f9d15d8551",
+      "4e2f840cbf0416fed6db85e509f52542",
+      "807352d5093bec272d17ae08c64f4fac",
+      "fb208f71c96473c95764ee9751afac77",
+      "7427a1328ba1000b01397d688dd3fd2f",
+      "71926a2d507759aece6b50f7c69bda44",
+      "f732ef3bfb8b707fa141d1444ddca255",
+      "73af7524cc19b7eaef7ae6cc7e787a21",
+      "eccd81842e2db4a735f0a866cda1ff11",
+      "b123d9c331f47fe5f5c6bb5f0e57fa43",
+      "7a6365d7c69afdc2f1175d3269077391",
+      "aa7026713f41590eab631928dafdafed",
+      "0a3fbac05a65dc73cb5d9dfb0832177c",
+      "e8118fc7564057d73bafae70bd11cbb8",
+      "3130434fad273016b69a2c4635d9ecd7",
+      "6c77a2f51aff554fbd9ca5b00cbb04c8",
+      "d28ccd5c5e39dc61f0caf2821b636f93",
+      "eadf0854df5ac2bd3069003ee6bbfbd3",
+      "6e892dd02cff92fb34e6c28aaac586fe",
+      "40fa4847467f1b19d94b78a0f831df97",
+      "913509081a0dc314b5b1eebeacfca85c",
+      "0f8397d041f75319783340d822a2a637",
+      "2e44324b79ddb9e441dfbd8bbffe55e1",
+      "2091178870ad88543a077a715495521f",
+      "d5aff6f0db404f8b5135125cd30c7903",
+      "2c443f298770a74950463c0f9232d747",
+      "0837dfac066de7c1dc29497806f82c16",
+      "1eae34081dce0c24eb77f5a796742d99",
+      "5396284e638f50dd281f96834baca929",
+      "61e96b8a72a869efc1f9a31465da4d20",
+      "28b977f6ad1638f4a957d2fa252618b2",
+      "8fbcd4dbca1970d03bd1d3cd184f302b",
+      "1eb4723030e0308f7162a5023222d47e",
+      "037903b6f44b83f6e8a0e378dbb2e0b4",
+      "7ffb19e23d66eaaa6afb759dacee3476",
+      "7ff940c9149240340a4e74eaa2385967",
+      "d3e7f0b2ab8d00f467be4693cd570dc6",
+      "4584b790ba35d7396228ffc5d8dce405",
+      "74e2793c03529fccf9e5615bc86768bb",
+      "ec281be7f98e28942e0b49ef22304132",
+      "58b5461be2ddc1849108ffc58c68b046",
+      "b2bc9d9f1076b7138ef039a15bc90ac9",
+      "f50a28639222ee71ef94f77b3731785f",
+      "f943c94f3a09c45a8018e748b8d2a27d",
+      "e185b6daca03037b21cd1225f290d977",
+      "907064e6df68774e59af3c6541abeca2",
+      "53284ec6858d2dc0b18664005784b55f",
+      "030daca08f8a7362e9b029914ee0b7ce",
+      "4d7fcfebf0ca7598027d614701d68df7",
+      "88b3b948fe9d76ec78ec35a404bbb97e",
+      "43ad178c2ae16b2bf4d767641eb2a066",
+      "f77a0069f3a10d336df060aa3e864b1c",
+      "b0db950e44a62b33024869bad17d01c0",
+      "dce59a6c4015bde98a101036e725112a",
+      "5c1d0b17e0c94c3ec63dc2d40c5c458a",
+      "5c10e0ade42c049fef05280d644e2197",
+      "419af3bf33b17aef5940243bc7f31bb3",
+      "7e42eaebe4cd85b4b746211670fbfef8",
+      "b8d2aa6f8c7a2b91b82acc2600c015dd"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "price": 1.0
+    },
+    "source_mix": {
+      "play": 1.0
+    },
+    "single_source_warning": true,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "wait_for_sale_sale_timing",
+    "problem_one_liner": "Users wait for a sale or price drop before buying saved items because they are waiting for sale timing (for example EORS).",
+    "member_doc_ids": [
+      "71e1c22f2bd74443fbae6c1f23d6579e",
+      "78707aee70fc91d98f92dcec79b14230",
+      "5e1ab14b786dddb115e9f90101885f55",
+      "a09e28e83563dac74f55738e389afcf8",
+      "37da6eac4cc5b414f6079633cabd9801",
+      "5e3d61ff2b115960a3355dd89b453bd5",
+      "3a0bda1e7b90d339f01feb413b35cb4f",
+      "099fad7018dc63bcff4d22fa4bdb1e50",
+      "27fbf5014ba04849813db8c14c561fc9",
+      "1e714fed995ceb371d6cd1d2fa490f6d",
+      "4ebe08a17e4f2fff7ed50903e64b8676",
+      "413d5204caa26cb9669e0182af541200",
+      "9d3bba84fd63f4481a430bebb04b8216",
+      "4634d784db3bd4cb45da76c3de3ed1c7",
+      "a5456acda30abad791c345c8d09f8a2b",
+      "36ce9eff13cc5e4459304e338514dea6",
+      "b5956dcc824e6925c3b28ded9e6101a6",
+      "df0d63f512c1d405685c8c0f45d20946",
+      "ced0b2852d56cddfc78e9434f0894db2",
+      "274adccf07770aca6724a8f12bcc44fb",
+      "aad1e6780b253f0243c41fa4f8f2cfef",
+      "0d741f0ed98131984145eb72f571d0e4",
+      "68e8f074397c629855ea60ff55af4684",
+      "30f58ac13cc6f189d8178986b2370b1f",
+      "035d45f5a8c28afb5ac9671b8abcd996",
+      "fd047944bcd3d2436832709b5b2930d4",
+      "774d48739e9964f04da88e6634eba53e"
+    ],
+    "representative_doc_ids": [
+      "27fbf5014ba04849813db8c14c561fc9",
+      "1e714fed995ceb371d6cd1d2fa490f6d",
+      "3a0bda1e7b90d339f01feb413b35cb4f",
+      "5e1ab14b786dddb115e9f90101885f55"
+    ],
+    "job_mix": {
+      "wait_for_sale": 1.0
+    },
+    "blocker_mix": {
+      "sale_timing": 1.0
+    },
+    "source_mix": {
+      "play": 0.8889,
+      "youtube": 0.0741,
+      "stub": 0.037
+    },
+    "single_source_warning": false,
+    "quotes": [
+      {
+        "doc_id": "27fbf5014ba04849813db8c14c561fc9",
+        "source": "play",
+        "observed_at": "2026-08-06T13:30:55",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "1e714fed995ceb371d6cd1d2fa490f6d",
+        "source": "youtube",
+        "observed_at": "2026-07-21T15:23:30",
+        "quote": "Wishlist"
+      },
+      {
+        "doc_id": "3a0bda1e7b90d339f01feb413b35cb4f",
+        "source": "play",
+        "observed_at": "2026-08-05T10:46:38",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "5e1ab14b786dddb115e9f90101885f55",
+        "source": "play",
+        "observed_at": "2026-05-10T06:35:10",
+        "quote": "wishlist"
+      }
+    ],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "unknown_fabric_quality",
+    "problem_one_liner": "Users hesitate on a saved item because fabric or quality feels uncertain before they commit to a saved item.",
+    "member_doc_ids": [
+      "69c4f0c1fba665bd6e8d13f7adc6c810",
+      "e8d4db502fdf2daaacf0f4ff42eef995",
+      "69ff83d71e8ea3fc4ad4bdcfc3e919f6",
+      "5d1d9108de42e764be0bd1689dbc5a50",
+      "3c4512970875a6f256e14a570f1dec45",
+      "d55d2721f0d01f77598316f62e9e8000",
+      "1b7c5b4fb2dcdcf6f4a271193aa0d209",
+      "f95e65477721495a01b0a92a11a6c43b",
+      "9f2e0aff40e1d74183d40784d0010e63",
+      "5396516ddee67ed6c0f7993fcf648bae",
+      "db89b9e0d4df40dd0f187c21d7419fa4",
+      "6b8435b7d5ad0507cc8aea75b5441a2d",
+      "20b23db7b27ce862b9a853000d99e8ef",
+      "52a0c3827f412e894dff9262ed79f48a",
+      "6ba9964028de6b7ecaf3f7ef1f841ab2",
+      "29414d7c018f3e43be035ef28984d169",
+      "f7b3d9e6109bbda469f455bfd3857153",
+      "9d86c8ebfc53514ab8afdb9be81be0ea",
+      "cc71ccdf000920b4cca3934e4bacb04b",
+      "ae931372508f3bf98c62f0f5507fafaa",
+      "c86708bcfe3004ca60b74bf36d8aa3a0",
+      "a7685bf9ed38eb131499fbe7d5bdaa19",
+      "f5c33c1b511b5dd20756c0c60cf6a0f9",
+      "23c859f1d636010cfe1efb5729836027",
+      "16bf60ca76aff5eec0f84f1bbe7464c8",
+      "65001094aaa748034d6831e2920323ac"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "fabric_quality": 0.6667,
+      "returns": 0.3333
+    },
+    "source_mix": {
+      "youtube": 0.8077,
+      "play": 0.1923
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "bookmark_later_photo_mismatch",
+    "problem_one_liner": "Users save items as bookmarks instead of buying now because the product looks different than photos or haul videos.",
+    "member_doc_ids": [
+      "c5216a077a4c080efb5d3718c51abfac",
+      "6238b662b0fc738077400ed66b9ed2a9",
+      "2a79f576c0b45b434132b85309e85cca",
+      "220a208bd2d745dafb2a530f72342df3",
+      "b208a0dab5a96deca0a71f9fc57bc914",
+      "50207a4447606106daeec55a22d76c45",
+      "0738f8b6621ef754aef8bf1ca09cbee0",
+      "b68a7f1e3498adddeaa78fffaf9178e1",
+      "f4df20c9db42449f29da816c7a9bdccc",
+      "87c07f759c63cdd19af9fc2f9e4b8072",
+      "6db423213066f69c1b01d44a0cc7fd44",
+      "927cd63cc9d27bf60cfd37e9c566ea4c",
+      "aa8b10c544a44c4be7ac47e52611115f",
+      "33d7d6cba64d621ff15de55faed7706c",
+      "90b09674f0dd27a094735f3e43778da6",
+      "3a91fdbf67caef403549eca3a89d182a",
+      "dabdf43a467e44fe7e3fa29402351200"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "bookmark_later": 1.0
+    },
+    "blocker_mix": {
+      "photo_mismatch": 1.0
+    },
+    "source_mix": {
+      "play": 0.8235,
+      "youtube": 0.1176,
+      "stub": 0.0588
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "wait_for_sale_price",
+    "problem_one_liner": "Users wait for a sale or price drop before buying saved items because the current price feels too high.",
+    "member_doc_ids": [
+      "edce39fff163e46e5e13260f8e2a12df",
+      "d6ac685b0793e318afc8147643b873ab",
+      "b3e5240183efb647f3f7313a08fe13f5",
+      "c931129477657c7f831bce328fea0c5c",
+      "31417513d3f69697ff4289fb4c17ce53",
+      "b6fcb09b5ab80a5fb166ce8e9ea84dae",
+      "707337a52fc2530c3d9b02e2a8082516",
+      "00eec99c59ba05014eac3c8b4d30536d",
+      "7fca4878c784940ce70b160d375a3029",
+      "c064c427c76a8ecc06aff4cd1f01bd11",
+      "05595baec4f5d5bface2821c5f274bbc",
+      "ca175b7d83e145244c3c4368620834fb",
+      "f6c9c8b6036d2c186c8cc63349298b32",
+      "b8f82d7e1d68c44cd6c98dc0217528d8"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "wait_for_sale": 1.0
+    },
+    "blocker_mix": {
+      "price": 0.8571,
+      "returns": 0.1429
+    },
+    "source_mix": {
+      "play": 0.9286,
+      "youtube": 0.0714
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "shortlist_compare_open",
+    "problem_one_liner": "Users delay while comparing shortlisted products.",
+    "member_doc_ids": [
+      "34b5eeadebffdadb68ced89d21d18ce6",
+      "96a989b27c440f444c9fa0ec6a467763",
+      "2835af9cac363e4ae69d54266a78616e",
+      "525fd9b51b36b42db623645180233013",
+      "3a54865ed258c5c6cc7f26345886edb6",
+      "067fd59556a7630774b7bbbad4e803e9",
+      "f39ee26fbf29d199167b0a4a8b35ff81",
+      "73ffa282c869657a8321e57fb1090db9",
+      "3c16819d09e2688ef90a3c880ededd07",
+      "3fa60860ea45640796c0a6ee9ce48df0"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {},
+    "source_mix": {
+      "play": 0.6,
+      "youtube": 0.3,
+      "app_store": 0.1
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "intent_blocked_fit",
+    "problem_one_liner": "Users want the item but a concrete blocker stops checkout because they are unsure about size or fit before ordering a saved item.",
+    "member_doc_ids": [
+      "12019cf628ee9c2093894ccc75527504",
+      "4cd74c39c354315e1d8ec9ad54fe0dcf",
+      "21b01ed039dd80fa2b80a9a8710d8a3f",
+      "45e177fa551d73b072f1018553ded62c",
+      "fdc1760f03f604398f7b38157cd85be1",
+      "969fa3221cfa7990e30dbb2bb2291018",
+      "58340eb3d7c3a11c8dff86fa7a14c387",
+      "18955eed2ecbede8e56e628572c06376",
+      "d430b5ebd49d90fc1e3828ddb10d772b"
+    ],
+    "representative_doc_ids": [
+      "fdc1760f03f604398f7b38157cd85be1"
+    ],
+    "job_mix": {
+      "intent_blocked": 0.8889,
+      "shortlist_compare": 0.1111
+    },
+    "blocker_mix": {
+      "fit": 0.5,
+      "fabric_quality": 0.125,
+      "photo_mismatch": 0.125,
+      "price": 0.125,
+      "size_chart": 0.125
+    },
+    "source_mix": {
+      "play": 0.8889,
+      "stub": 0.1111
+    },
+    "single_source_warning": false,
+    "quotes": [
+      {
+        "doc_id": "fdc1760f03f604398f7b38157cd85be1",
+        "source": "stub",
+        "observed_at": "2026-07-15T12:51:03",
+        "quote": "Confused between"
+      }
+    ],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "occasion_social_styling_occasion",
+    "problem_one_liner": "Users wait for occasion or social confidence before buying a saved look because they are unsure it will work for the occasion.",
+    "member_doc_ids": [
+      "e48be276a52b5ceca53b840dfea71b93",
+      "e505899d386f111dab479bb8976d934f",
+      "61366d15dc24f1e4cdcf016aa469217b",
+      "50c7e26bd6c3745c080445e50dfdea17",
+      "bdc079e90f5cd431aa0561d820ea0bfa",
+      "a126750f502a40ac5674250ac67b7b79",
+      "a5346f5e74b50b824c0aa5c79b5c0912",
+      "cc68b4b04a7db77c66c861aa3a172fbb"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "occasion_social": 0.875,
+      "intent_blocked": 0.125
+    },
+    "blocker_mix": {
+      "styling_occasion": 1.0
+    },
+    "source_mix": {
+      "play": 0.75,
+      "youtube": 0.25
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "shortlist_compare_review_volume_trust",
+    "problem_one_liner": "Users delay while comparing shortlisted products because reviews are too few or untrusted.",
+    "member_doc_ids": [
+      "2cb52baaa9cdc4185f77600b0ee6fd16",
+      "80ca52c6423a467ba0fca956d221582b",
+      "7abb0649d96161e2853c36596d6d0e69",
+      "cc92200c5011660f2cecde31d5af4ffa",
+      "28d987f84bbe3e04fff2ca247d7a820d",
+      "1377f87876caad84076ffb369a212dc0",
+      "717ca64861a3e6f3605b463f8e72fbd7",
+      "0998b75d8f616aa0fe7742b5ca76a7f2"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {
+      "review_volume_trust": 1.0
+    },
+    "source_mix": {
+      "play": 1.0
+    },
+    "single_source_warning": true,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "shortlist_compare_competitor_check",
+    "problem_one_liner": "Users delay while comparing shortlisted products because they are checking a competitor before committing.",
+    "member_doc_ids": [
+      "cb87d8c70799e5d00ea7c834d5afb90d",
+      "ba9c7941fb04540b13ec8fa7ee85d7f1",
+      "1346eca3af0a29bc43e563d7164323d7",
+      "c702bf7e4e02f41f274c55e7930122a8",
+      "7271c729d9381fb47bcf3785b688bd3c",
+      "2d46c718735fb60881e750bb8c7110e0"
+    ],
+    "representative_doc_ids": [
+      "cb87d8c70799e5d00ea7c834d5afb90d",
+      "ba9c7941fb04540b13ec8fa7ee85d7f1",
+      "7271c729d9381fb47bcf3785b688bd3c",
+      "2d46c718735fb60881e750bb8c7110e0",
+      "1346eca3af0a29bc43e563d7164323d7",
+      "c702bf7e4e02f41f274c55e7930122a8"
+    ],
+    "job_mix": {
+      "shortlist_compare": 1.0
+    },
+    "blocker_mix": {
+      "competitor_check": 1.0
+    },
+    "source_mix": {
+      "youtube": 0.8333,
+      "play": 0.1667
+    },
+    "single_source_warning": false,
+    "quotes": [
+      {
+        "doc_id": "cb87d8c70799e5d00ea7c834d5afb90d",
+        "source": "play",
+        "observed_at": "2026-07-12T19:26:35",
+        "quote": "shortlist"
+      },
+      {
+        "doc_id": "ba9c7941fb04540b13ec8fa7ee85d7f1",
+        "source": "youtube",
+        "observed_at": "2026-05-25T11:21:31",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "7271c729d9381fb47bcf3785b688bd3c",
+        "source": "youtube",
+        "observed_at": "2026-05-24T02:37:41",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "2d46c718735fb60881e750bb8c7110e0",
+        "source": "youtube",
+        "observed_at": "2026-04-14T07:12:48",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "1346eca3af0a29bc43e563d7164323d7",
+        "source": "youtube",
+        "observed_at": "2026-04-13T07:49:58",
+        "quote": "wishlist"
+      },
+      {
+        "doc_id": "c702bf7e4e02f41f274c55e7930122a8",
+        "source": "youtube",
+        "observed_at": "2026-03-09T10:14:29",
+        "quote": "wishlist"
+      }
+    ],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  },
+  {
+    "opportunity_id": "unknown_competitor_check",
+    "problem_one_liner": "Users hesitate on a saved item because they are checking a competitor before committing.",
+    "member_doc_ids": [
+      "db6dddf09dd2bcf79a0dfda6e95ea1bf",
+      "f681f23d81c1eec1780d80aa5a2a4aff",
+      "558af04d07bb94ecbed6b2b83a87ac23"
+    ],
+    "representative_doc_ids": [],
+    "job_mix": {
+      "unknown": 1.0
+    },
+    "blocker_mix": {
+      "competitor_check": 1.0
+    },
+    "source_mix": {
+      "youtube": 0.6667,
+      "play": 0.3333
+    },
+    "single_source_warning": false,
+    "quotes": [],
+    "naming_source": "template",
+    "cluster_version": "cluster_v9"
+  }
+]

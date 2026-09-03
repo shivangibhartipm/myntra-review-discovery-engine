@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.env
+data/*.db
+data/*.db-journal
+web/node_modules/
+web/.next/
+dist/
+build/
+
+# Internal product docs (not for repo)
+docs/solutiondecision.md
+docs/problemidentification.md
+docs/hypotheses.md
+docs/surveyanalysis.md
+docs/metric-decomposition.md
+docs/google-form-survey.md
+docs/surveyform.md
